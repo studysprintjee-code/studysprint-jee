@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,3 +75,81 @@
   <script src="timetable.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JEE Saathi | Study Plan</title>
+  <link rel="stylesheet" href="timetable.css" />
+</head>
+<body>
+  <div class="floating-study-art" aria-hidden="true">
+    <span class="float-item float-book">📚</span>
+    <span class="float-item float-notes">📝</span>
+    <span class="float-item float-timer">⏱</span>
+    <span class="float-item float-clock">⏰</span>
+    <span class="float-item float-pencil">✏</span>
+  </div>
+  <header class="topbar">
+    <a class="brand" href="index.html"><span class="brand-mark">✦</span> JEE <span>Saathi</span></a>
+    <nav class="page-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="subject.html?subject=physics">Physics</a>
+      <a href="subject.html?subject=chemistry">Chemistry</a>
+      <a href="subject.html?subject=mathematics">Maths</a>
+      <a href="timetable.html">Study Plan</a>
+      <a href="quiz.html">Quiz</a>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="page-intro">
+      <div>
+        <span class="eyebrow">YOUR WEEK</span>
+        <h1>Study timetable</h1>
+        <p>Shape your study blocks around the subjects and chapters you want to master.</p>
+      </div>
+      <button id="saveButton" class="save-button" type="button">Save plan</button>
+    </section>
+
+    <section class="planner-panel" aria-label="Editable study timetable">
+      <div class="planner-toolbar">
+        <div class="day-tabs" role="tablist" aria-label="Choose a day">
+          <button class="day-tab active" type="button" data-day="Monday">Mon</button>
+          <button class="day-tab" type="button" data-day="Tuesday">Tue</button>
+          <button class="day-tab" type="button" data-day="Wednesday">Wed</button>
+          <button class="day-tab" type="button" data-day="Thursday">Thu</button>
+          <button class="day-tab" type="button" data-day="Friday">Fri</button>
+          <button class="day-tab" type="button" data-day="Saturday">Sat</button>
+          <button class="day-tab" type="button" data-day="Sunday">Sun</button>
+        </div>
+        <button id="addRowButton" class="add-button" type="button">+ Add study block</button>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Subject</th>
+              <th>Focus / chapter</th>
+              <th>Minutes</th>
+              <th>Status</th>
+              <th><span class="sr-only">Remove</span></th>
+            </tr>
+          </thead>
+          <tbody id="scheduleBody"></tbody>
+        </table>
+      </div>
+      <p id="emptyMessage" class="empty-message" hidden>No blocks planned for this day. Add one to begin.</p>
+    </section>
+
+    <p id="saveMessage" class="save-message" role="status"></p>
+  </main>
+
+  <script src="timetable.js"></script>
+</body>
+</html>
+>>>>>>> 1e88c0d0eee2de08cc3ed4e82c9c198e5849b700

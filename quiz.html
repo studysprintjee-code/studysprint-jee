@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,3 +62,68 @@
   <script src="quiz.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JEE Saathi | Quiz</title>
+  <link rel="stylesheet" href="quiz.css?v=3" />
+</head>
+<body>
+  <div class="floating-quiz-art" aria-hidden="true">
+    <span class="quiz-float quiz-book">📚</span>
+    <span class="quiz-float quiz-note">📝</span>
+    <span class="quiz-float quiz-clock">⏰</span>
+    <span class="quiz-float quiz-bulb">💡</span>
+  </div>
+  <header class="quiz-header">
+    <a class="brand" href="index.html"><span class="brand-mark">✦</span> JEE <span>Saathi</span></a>
+    <nav class="page-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="subject.html?subject=physics">Physics</a>
+      <a href="subject.html?subject=chemistry">Chemistry</a>
+      <a href="subject.html?subject=mathematics">Maths</a>
+      <a href="timetable.html">Study Plan</a>
+      <a href="quiz.html">Quiz</a>
+    </nav>
+  </header>
+
+  <main class="quiz-shell">
+    <section class="quiz-intro">
+      <div>
+        <span class="eyebrow">JEE PRACTICE ARENA</span>
+        <h1>Choose your challenge</h1>
+        <p>Test Physics, Chemistry, Mathematics, or mix all three for a complete practice round.</p>
+      </div>
+      <div class="score-badge"><span id="scoreValue">0</span><small>score</small></div>
+    </section>
+
+    <nav class="subject-tabs" aria-label="Quiz subjects">
+      <button class="subject-tab active physics-tab" type="button" data-mode="physics">⚛ Physics</button>
+      <button class="subject-tab chemistry-tab" type="button" data-mode="chemistry">🧪 Chemistry</button>
+      <button class="subject-tab maths-tab" type="button" data-mode="mathematics">π Mathematics</button>
+      <button class="subject-tab combined-tab" type="button" data-mode="combined">✦ Combined Quiz</button>
+    </nav>
+
+    <section class="quiz-panel">
+      <div class="quiz-panel-top">
+        <span id="quizModeLabel">Physics quiz</span>
+        <span id="questionProgress">Question 1 of 6</span>
+      </div>
+      <div class="progress-track"><div id="progressFill" class="progress-fill"></div></div>
+      <h2 id="questionText">Loading question...</h2>
+      <div id="answerGrid" class="answer-grid"></div>
+      <div class="quiz-footer">
+        <p id="feedback">Select one answer.</p>
+        <button id="nextButton" class="next-button" type="button" disabled>Next question →</button>
+      </div>
+    </section>
+
+    <button id="restartButton" class="restart-button" type="button">Restart quiz</button>
+  </main>
+  <script src="quiz.js"></script>
+</body>
+</html>
+>>>>>>> 1e88c0d0eee2de08cc3ed4e82c9c198e5849b700

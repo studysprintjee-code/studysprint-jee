@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Local development and editor files
 .vscode/
 *.log
@@ -5,3 +6,12 @@
 # OS files
 .DS_Store
 Thumbs.db
+=======
+# Local development and editor files
+.vscode/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+>>>>>>> 1e88c0d0eee2de08cc3ed4e82c9c198e5849b700
