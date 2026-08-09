@@ -281,7 +281,33 @@ const additionalPhysicsChapters = [
   ["Waves", "Wave motion, standing waves, sound, beats, and Doppler effect."]
 ];
 
-jeeSyllabus.physics.push(...additionalPhysicsChapters);
+jeeSyllabus.physics = [
+  ["Units and Measurements", "Dimensions, errors, significant figures, and instruments."],
+  ["Motion in a Straight Line and Plane", "Motion graphs, relative motion, vectors, and projectile motion."],
+  ["Laws of Motion", "Newton's laws, friction, circular motion, and connected bodies."],
+  ["Work, Energy and Power", "Work-energy theorem, power, collisions, and conservation laws."],
+  ["System of Particles and Rotational Motion", "Centre of mass, torque, angular momentum, rolling, and moment of inertia."],
+  ["Gravitation", "Gravitational field, potential, satellites, and escape velocity."],
+  ["Mechanical Properties of Solids", "Stress, strain, elasticity, Young's modulus, and elastic energy."],
+  ["Mechanical Properties of Fluids", "Pressure, viscosity, surface tension, Bernoulli's theorem, and fluid flow."],
+  ["Thermal Properties of Matter", "Thermal expansion, calorimetry, heat transfer, and change of state."],
+  ["Thermodynamics", "Laws of thermodynamics, heat engines, and kinetic theory."],
+  ["Kinetic Theory of Gases", "Molecular motion, gas laws, kinetic theory, and degrees of freedom."],
+  ["Oscillations", "Simple harmonic motion, energy, spring systems, and pendulums."],
+  ["Waves", "Wave motion, standing waves, sound, beats, and Doppler effect."],
+  ["Electric Charges and Fields", "Coulomb's law, electric field, dipole, flux, and Gauss's law."],
+  ["Electrostatic Potential and Capacitance", "Potential, capacitors, combinations, dielectrics, and stored energy."],
+  ["Current Electricity", "Circuits, resistance, Kirchhoff's laws, and electrical instruments."],
+  ["Moving Charges and Magnetism", "Lorentz force, Biot-Savart law, Ampere's law, and magnetic motion."],
+  ["Magnetism and Matter", "Magnetic materials, earth's magnetism, susceptibility, and hysteresis."],
+  ["Alternating Current and Electromagnetic Induction", "Faraday's law, Lenz's law, AC circuits, transformers, and generators."],
+  ["Electromagnetic Waves", "Properties of electromagnetic waves, spectrum, and applications."],
+  ["Ray Optics and Optical Instruments", "Reflection, refraction, lenses, mirrors, prisms, and optical instruments."],
+  ["Wave Optics", "Interference, diffraction, polarisation, and Young's double-slit experiment."],
+  ["Dual Nature of Matter and Radiation", "Photoelectric effect, matter waves, de Broglie relation, and photons."],
+  ["Atoms and Nuclei", "Atomic models, spectra, nuclear properties, radioactivity, and binding energy."],
+  ["Semiconductor Electronics", "Semiconductors, diodes, transistors, logic gates, and digital circuits."]
+];
 
 const formulaLibrary = {
   physics: [
@@ -486,6 +512,7 @@ const previousFormulaButton = document.querySelector("#previousFormulaButton");
 const nextFormulaButton = document.querySelector("#nextFormulaButton");
 const themeButton = document.querySelector("#themeButton");
 const toast = document.querySelector("#toast");
+const navLinks = document.querySelectorAll('.main-nav a');
 
 let currentQuestionIndex = 0;
 let currentQuestionAnswered = false;
@@ -506,6 +533,24 @@ function applySubjectTheme() {
   chapterCount.textContent = subject.chapters.length;
   formulaCount.textContent = `${subject.formulas.length}+`;
   quizCount.textContent = subject.questions.length * 7;
+
+  navLinks.forEach((link) => {
+    link.classList.remove("active");
+
+    const href = link.getAttribute("href");
+    if (!href) return;
+
+    const linkUrl = new URL(href, window.location.href);
+    const currentUrl = new URL(window.location.href);
+    const currentSubject = currentUrl.searchParams.get("subject") || "physics";
+
+    if (
+      linkUrl.pathname.endsWith("subject.html") &&
+      linkUrl.searchParams.get("subject") === currentSubject
+    ) {
+      link.classList.add("active");
+    }
+  });
 
   document.title = `JEE साथी | ${subject.name}`;
 }

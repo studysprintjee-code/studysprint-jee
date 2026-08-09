@@ -430,6 +430,24 @@
         font-size: 0.7rem;
       }
 
+      .week-days span {
+        position: relative;
+        padding-top: 12px;
+      }
+
+      .week-days span::before {
+        position: absolute;
+        right: 50%;
+        bottom: 21px;
+        left: 50%;
+        height: var(--day-height, 0px);
+        border-radius: 8px;
+        background: var(--blue);
+        content: "";
+        transform: translateX(-50%);
+        transition: height 400ms ease;
+      }
+
       .stat-icon {
         display: grid;
         width: 42px;
@@ -709,9 +727,9 @@
         </a>
         <div class="nav-links">
           <a class="nav-pill" href="#home">Home</a>
-          <a class="nav-pill" href="#physics">Physics</a>
-          <a class="nav-pill" href="#chemistry">Chemistry</a>
-          <a class="nav-pill" href="#maths">Maths</a>
+          <a class="nav-pill" href="subject.html?subject=physics">Physics</a>
+          <a class="nav-pill" href="subject.html?subject=chemistry">Chemistry</a>
+          <a class="nav-pill" href="subject.html?subject=mathematics">Maths</a>
           <a class="nav-pill" href="#quiz">Quick Action</a>
         </div>
         <button class="theme-button" type="button" aria-label="Toggle theme">☀️</button>
@@ -775,26 +793,26 @@
           <div class="progress-card main-progress-card">
             <div class="progress-card-heading">
               <strong>Weekly Completion</strong>
-              <span class="progress-percent">68%</span>
+              <span id="weeklyPercent" class="progress-percent">0%</span>
             </div>
             <div class="large-progress">
-              <div class="large-progress-fill"></div>
+              <div id="weeklyProgressFill" class="large-progress-fill"></div>
             </div>
-            <div class="week-days">
-              <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+            <div class="week-days" id="weekDays">
+              <span data-day="Monday">Mon</span><span data-day="Tuesday">Tue</span><span data-day="Wednesday">Wed</span><span data-day="Thursday">Thu</span><span data-day="Friday">Fri</span><span data-day="Saturday">Sat</span><span data-day="Sunday">Sun</span>
             </div>
           </div>
           <div class="progress-card stat-card">
             <div class="stat-icon purple-icon">🧠</div>
-            <h3>24 topics</h3>
+            <h3 id="topicsCovered">0 topics</h3>
             <p>Concepts covered</p>
-            <small>+6 this week</small>
+            <small id="topicDelta">Start planning today</small>
           </div>
           <div class="progress-card stat-card">
             <div class="stat-icon yellow-icon">⏱️</div>
-            <h3>5.5 hrs</h3>
+            <h3 id="studyTime">0 hrs</h3>
             <p>Study time</p>
-            <small>Steady pace</small>
+            <small id="studyTimeNote">From your timetable</small>
           </div>
         </div>
       </section>
@@ -838,7 +856,7 @@
         </div>
 
         <div class="quick-grid">
-          <a class="quick-card" href="#home">
+          <a class="quick-card" href="timetable.html">
             <span>🗓️</span>
             <div>
               <h3>Study Plan</h3>
@@ -846,7 +864,7 @@
             </div>
             <strong>→</strong>
           </a>
-          <a class="quick-card" href="#subjects">
+          <a class="quick-card" href="quiz.html">
             <span>✅</span>
             <div>
               <h3>Take Quiz</h3>
@@ -869,5 +887,6 @@
     <footer id="timetable">
       <p>Built for beginners learning HTML, CSS, and JavaScript.</p>
     </footer>
+    <script src="dashboard.js"></script>
   </body>
 </html>
