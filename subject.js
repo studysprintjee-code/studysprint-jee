@@ -223,17 +223,12 @@ const subjectData = {
 const jeeSyllabus = {
   physics: [
     ["Units and Measurements", "Dimensions, errors, significant figures, and instruments."],
-    ["Kinematics", "Motion in one and two dimensions, vectors, and projectile motion."],
     ["Laws of Motion", "Newton's laws, friction, circular motion, and connected bodies."],
     ["Work, Energy and Power", "Work-energy theorem, power, collisions, and conservation laws."],
-    ["Rotational Motion", "Torque, angular momentum, rolling motion, and moment of inertia."],
     ["Gravitation", "Gravitational field, potential, satellites, and escape velocity."],
     ["Thermodynamics", "Laws of thermodynamics, heat engines, and kinetic theory."],
-    ["Electrostatics", "Electric field, potential, capacitors, and Gauss's law."],
+    ["Kinetic Theory of Gases", "Molecular motion, gas laws, kinetic theory, and degrees of freedom."],
     ["Current Electricity", "Circuits, resistance, Kirchhoff's laws, and electrical instruments."],
-    ["Magnetism and Electromagnetic Induction", "Magnetic effects, moving charges, induction, and AC."],
-    ["Optics", "Ray optics, wave optics, instruments, and interference."],
-    ["Modern Physics", "Dual nature, atoms, nuclei, semiconductors, and communication systems."]
   ],
   chemistry: [
     ["Some Basic Concepts", "Moles, atomic mass, percentage composition, and stoichiometry."],
@@ -264,6 +259,29 @@ const jeeSyllabus = {
     ["Probability and Statistics", "Probability, distributions, mean, variance, and data analysis."]
   ]
 };
+
+const additionalPhysicsChapters = [
+  ["Motion in a Straight Line and Plane", "Motion graphs, relative motion, vectors, and projectile motion."],
+  ["System of Particles and Rotational Motion", "Centre of mass, torque, angular momentum, rolling, and moment of inertia."],
+  ["Mechanical Properties of Solids", "Stress, strain, elasticity, Young's modulus, and elastic energy."],
+  ["Mechanical Properties of Fluids", "Pressure, viscosity, surface tension, Bernoulli's theorem, and fluid flow."],
+  ["Thermal Properties of Matter", "Thermal expansion, calorimetry, heat transfer, and change of state."],
+  ["Electric Charges and Fields", "Coulomb's law, electric field, dipole, flux, and Gauss's law."],
+  ["Electrostatic Potential and Capacitance", "Potential, capacitors, combinations, dielectrics, and stored energy."],
+  ["Moving Charges and Magnetism", "Lorentz force, Biot-Savart law, Ampere's law, and magnetic motion."],
+  ["Magnetism and Matter", "Magnetic materials, earth's magnetism, susceptibility, and hysteresis."],
+  ["Alternating Current and Electromagnetic Induction", "Faraday's law, Lenz's law, AC circuits, transformers, and generators."],
+  ["Ray Optics and Optical Instruments", "Reflection, refraction, lenses, mirrors, prisms, and optical instruments."],
+  ["Wave Optics", "Interference, diffraction, polarisation, and Young's double-slit experiment."],
+  ["Dual Nature of Matter and Radiation", "Photoelectric effect, matter waves, de Broglie relation, and photons."],
+  ["Atoms and Nuclei", "Atomic models, spectra, nuclear properties, radioactivity, and binding energy."],
+  ["Semiconductor Electronics", "Semiconductors, diodes, transistors, logic gates, and digital circuits."],
+  ["Electromagnetic Waves", "Properties of electromagnetic waves, spectrum, and applications."],
+  ["Oscillations", "Simple harmonic motion, energy, spring systems, and pendulums."],
+  ["Waves", "Wave motion, standing waves, sound, beats, and Doppler effect."]
+];
+
+jeeSyllabus.physics.push(...additionalPhysicsChapters);
 
 const formulaLibrary = {
   physics: [
@@ -413,6 +431,12 @@ const params = new URLSearchParams(window.location.search);
 const selectedSubject = params.get("subject") || "physics";
 const subject = subjectData[selectedSubject] || subjectData.physics;
 const storageConfig = window.STUDY_SPRINT_STORAGE || { baseUrl: "", files: {} };
+
+if (!storageConfig.files.physics) {
+  storageConfig.files.physics = {};
+}
+
+storageConfig.files.physics["Kinetic Theory of Gases"] = "physics/kinetic-theory-of-gases.pdf";
 
 function getChapterFile(subjectKey, chapterTitle) {
   const configuredFile = storageConfig.files?.[subjectKey]?.[chapterTitle];
