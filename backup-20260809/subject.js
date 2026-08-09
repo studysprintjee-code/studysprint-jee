@@ -1,0 +1,893 @@
+const subjectData = {
+  physics: {
+    name: "Physics",
+    icon: "⚛",
+    color: "#315bea",
+    darkColor: "#172b78",
+    title: "Explore the laws of motion.",
+    description:
+      "Build strong concepts, understand the universe, and practise important JEE-level problems.",
+    chapters: [
+      {
+        title: "Units and Measurements",
+        description: "Dimensions, errors, significant figures, and instruments.",
+        concept:
+          "Measurement gives meaning to physical quantities. Every measurement contains a unit and may include a small experimental error.",
+        points: [
+          "Use dimensions to check whether an equation is physically possible.",
+          "Significant figures communicate the precision of a measurement.",
+          "Absolute error is the difference between measured and true value.",
+          "Dimensional analysis cannot determine numerical constants."
+        ],
+        formulas: [
+          [
+            "Percentage error",
+            "Percentage error = absolute error / measured value × 100"
+          ],
+          ["Dimensional formula", "[Q] = MᵃLᵇTᶜ"],
+          ["Mean value", "Mean = sum of observations / number of observations"]
+        ],
+        map: ["Measurement", "Units", "Dimensions", "Errors"],
+        quiz: [
+          {
+            question: "Which is a fundamental SI quantity?",
+            options: ["Force", "Energy", "Mass", "Pressure"],
+            answer: 2
+          },
+          {
+            question: "The dimension of velocity is:",
+            options: ["[LT⁻¹]", "[LT⁻²]", "[MLT⁻¹]", "[M⁰L⁰T⁰]"],
+            answer: 0
+          }
+        ]
+      },
+      {
+        title: "Kinematics",
+        description: "Motion in one dimension, vectors, and projectile motion.",
+        concept:
+          "Kinematics describes motion using displacement, velocity, acceleration, and time without discussing the cause of motion.",
+        points: [
+          "Displacement is a vector, while distance is a scalar.",
+          "The slope of a position-time graph gives velocity.",
+          "The slope of a velocity-time graph gives acceleration.",
+          "Projectile motion combines horizontal and vertical motion."
+        ],
+        formulas: [
+          ["First equation", "v = u + at"],
+          ["Second equation", "s = ut + 1/2 at²"],
+          ["Third equation", "v² = u² + 2as"]
+        ],
+        map: ["Kinematics", "Displacement", "Velocity", "Acceleration"],
+        quiz: [
+          {
+            question: "The slope of a velocity-time graph represents:",
+            options: ["Distance", "Acceleration", "Displacement", "Jerk"],
+            answer: 1
+          },
+          {
+            question: "Which quantity is scalar?",
+            options: ["Velocity", "Displacement", "Speed", "Acceleration"],
+            answer: 2
+          }
+        ]
+      }
+    ]
+  },
+  chemistry: {
+    name: "Chemistry",
+    icon: "🧪",
+    color: "#20a36a",
+    darkColor: "#12613f",
+    title: "Understand matter at every level.",
+    description:
+      "Connect atoms, reactions, and patterns with clear explanations and smart revision tools.",
+    chapters: [
+      {
+        title: "Some Basic Concepts",
+        description:
+          "Moles, atomic mass, percentage composition, and stoichiometry.",
+        concept:
+          "The mole concept connects microscopic particles with measurable quantities such as mass and volume.",
+        points: [
+          "One mole contains approximately 6.022 × 10²³ particles.",
+          "Molar mass is the mass of one mole of a substance.",
+          "Stoichiometry uses balanced equations to compare quantities.",
+          "Limiting reagent determines the maximum product formed."
+        ],
+        formulas: [
+          ["Moles", "n = given mass / molar mass"],
+          ["Molarity", "M = moles / volume in litres"],
+          ["Mole fraction", "Xᵢ = nᵢ / total moles"]
+        ],
+        map: ["Mole Concept", "Mass", "Moles", "Stoichiometry"],
+        quiz: [
+          {
+            question: "Avogadro's number is approximately:",
+            options: ["6.022 × 10²³", "9.8", "3 × 10⁸", "1.6 × 10⁻¹⁹"],
+            answer: 0
+          },
+          {
+            question: "Molarity is expressed as:",
+            options: ["mol/kg", "mol/L", "g/L²", "L/mol"],
+            answer: 1
+          }
+        ]
+      },
+      {
+        title: "Atomic Structure",
+        description:
+          "Quantum numbers, orbitals, electronic configuration, and spectra.",
+        concept:
+          "Atomic structure explains how electrons are arranged around the nucleus and how their energy changes.",
+        points: [
+          "Electrons occupy orbitals with specific energy levels.",
+          "Four quantum numbers describe an electron.",
+          "An orbital can contain a maximum of two electrons.",
+          "Electrons fill lower-energy orbitals first."
+        ],
+        formulas: [
+          ["Photon energy", "E = hν"],
+          ["de Broglie wavelength", "λ = h / mv"],
+          ["Energy of photon", "E = hc / λ"]
+        ],
+        map: ["Atom", "Nucleus", "Electrons", "Orbitals"],
+        quiz: [
+          {
+            question: "Maximum electrons in one orbital are:",
+            options: ["1", "2", "8", "16"],
+            answer: 1
+          },
+          {
+            question: "The charge of an electron is:",
+            options: ["Positive", "Neutral", "Negative", "Variable"],
+            answer: 2
+          }
+        ]
+      }
+    ]
+  },
+  mathematics: {
+    name: "Mathematics",
+    icon: "π",
+    color: "#d38a00",
+    darkColor: "#765000",
+    title: "Turn problems into patterns.",
+    description:
+      "Improve your accuracy, discover shortcuts, and build the confidence to solve challenging problems.",
+    chapters: [
+      {
+        title: "Quadratic Equations",
+        description:
+          "Roots, nature of roots, equations, and inequalities.",
+        concept:
+          "A quadratic equation is a polynomial equation of degree two. Its roots can be studied using the discriminant and relations between roots.",
+        points: [
+          "The standard form is ax² + bx + c = 0, where a is not zero.",
+          "The discriminant determines the nature of the roots.",
+          "The sum of roots is -b/a.",
+          "The product of roots is c/a."
+        ],
+        formulas: [
+          ["Quadratic roots", "x = (-b ± √D) / 2a"],
+          ["Discriminant", "D = b² - 4ac"],
+          ["Sum of roots", "α + β = -b/a"]
+        ],
+        map: ["Quadratic", "Roots", "Discriminant", "Graph"],
+        quiz: [
+          {
+            question: "The discriminant of ax² + bx + c is:",
+            options: ["a² - 4bc", "b² - 4ac", "c² - 4ab", "a + b + c"],
+            answer: 1
+          },
+          {
+            question: "If D > 0, the roots are:",
+            options: ["Real and distinct", "Equal", "Imaginary", "Always zero"],
+            answer: 0
+          }
+        ]
+      },
+      {
+        title: "Sequences and Series",
+        description: "AP, GP, special series, and summation techniques.",
+        concept:
+          "A sequence is an ordered list of numbers. A series is formed when the terms of a sequence are added.",
+        points: [
+          "An arithmetic progression has a constant common difference.",
+          "A geometric progression has a constant common ratio.",
+          "The nth term helps calculate any position in a sequence.",
+          "Infinite geometric series converge when the absolute ratio is less than one."
+        ],
+        formulas: [
+          ["AP nth term", "aₙ = a + (n - 1)d"],
+          ["AP sum", "Sₙ = n/2 [2a + (n - 1)d]"],
+          ["GP nth term", "aₙ = arⁿ⁻¹"]
+        ],
+        map: ["Sequences", "AP", "GP", "Summation"],
+        quiz: [
+          {
+            question: "The common difference of 3, 7, 11 is:",
+            options: ["2", "3", "4", "5"],
+            answer: 2
+          },
+          {
+            question: "The common ratio of 2, 6, 18 is:",
+            options: ["2", "3", "6", "9"],
+            answer: 1
+          }
+        ]
+      }
+      ,
+      {
+        title: "Vectors",
+        description: "Vector algebra: addition, scalar multiplication, dot and cross product.",
+        concept: "Vectors represent magnitude and direction and are essential for spatial problems.",
+        points: [
+          "Vector addition is commutative and associative.",
+          "Dot product gives projection and angle between vectors.",
+          "Cross product gives a vector perpendicular to the plane of two vectors."
+        ],
+        formulas: [["Dot product", "a·b = |a||b|cosθ"], ["Cross product magnitude", "|a×b| = |a||b|sinθ"]],
+        map: ["Vector addition", "Dot product", "Cross product"],
+        quiz: []
+      },
+      {
+        title: "Three-Dimensional Geometry",
+        description: "Lines and planes in 3D, distances, direction ratios and cosines.",
+        concept: "Extend coordinate geometry into three dimensions using vectors and planes.",
+        points: ["Equation of a line in 3D", "Equation of a plane", "Distance from point to plane"],
+        formulas: [],
+        map: ["Line in 3D", "Plane equation", "Distance formulas"],
+        quiz: []
+      },
+      {
+        title: "Limits and Derivatives",
+        description: "Limits, basic derivative rules, and interpretation as rate of change.",
+        concept: "Limit describes behavior near a point; derivative measures instantaneous rate of change.",
+        points: ["Limit laws", "Derivative of xⁿ is nxⁿ⁻¹", "Chain and product rules"],
+        formulas: [["Power rule", "d(xⁿ)/dx = nxⁿ⁻¹"]],
+        map: ["Limits", "Derivatives", "Rules"],
+        quiz: []
+      },
+      {
+        title: "Integral",
+        description: "Indefinite and definite integrals, basic techniques and fundamental theorem.",
+        concept: "Integration is the inverse operation of differentiation and is used to compute areas and accumulated quantities.",
+        points: ["Indefinite integrals and constants of integration", "Definite integrals and area interpretation", "Basic techniques: substitution, parts"],
+        formulas: [["Fundamental theorem", "∫ₐᵇ f(x)dx = F(b) - F(a)"], ["Basic antiderivative", "∫xⁿ dx = xⁿ⁺¹/(n+1)"]],
+        map: ["Indefinite integral", "Definite integral", "Integration techniques"],
+        quiz: []
+      },
+      {
+        title: "Application of integral",
+        description: "Area between curves, volumes of revolution, and physical applications of integrals.",
+        concept: "Integrals model accumulated quantities such as area, volume, work, and centre of mass in physical problems.",
+        points: ["Area between curves", "Volume by washers and shells", "Applications to physics and probability"],
+        formulas: [["Area between curves", "Area = ∫(top - bottom) dx"], ["Volume (revolution)", "V = π∫[R(x)]² dx"]],
+        map: ["Area", "Volume", "Physical applications"],
+        quiz: []
+      },
+      {
+        title: "Continuity and Differentiability",
+        description: "Definition of continuity, differentiability and relation between them.",
+        concept: "Differentiability implies continuity; continuity does not always imply differentiability.",
+        points: ["Continuous function has no sudden jumps", "Differentiable functions have well-defined derivative"],
+        formulas: [],
+        map: ["Continuity", "Differentiability"],
+        quiz: []
+      },
+      {
+        title: "Statistics",
+        description: "Data representation, measures of central tendency and dispersion.",
+        concept: "Statistics summarises data using mean, median, mode, variance and standard deviation.",
+        points: ["Mean, median and mode", "Variance and standard deviation", "Data interpretation"],
+        formulas: [["Mean", "μ = Σx / n"], ["Variance", "σ² = E(X²) - [E(X)]²"]],
+        map: ["Mean", "Variance", "Data"],
+        quiz: []
+      },
+      {
+        title: "Probability",
+        description: "Basic probability, conditional probability and Bayes' theorem.",
+        concept: "Probability quantifies uncertainty; conditional probability refines probability given extra information.",
+        points: ["P(A∪B) = P(A)+P(B)-P(A∩B)", "Conditional probability formula"],
+        formulas: [["Conditional probability", "P(A|B) = P(A∩B)/P(B)"]],
+        map: ["Basic probability", "Conditional"],
+        quiz: []
+      }
+    ]
+  }
+};
+
+const jeeSyllabus = {
+  physics: [
+    ["Units and Measurements", "Dimensions, errors, significant figures, and instruments."],
+    ["Laws of Motion", "Newton's laws, friction, circular motion, and connected bodies."],
+    ["Work, Energy and Power", "Work-energy theorem, power, collisions, and conservation laws."],
+    ["Gravitation", "Gravitational field, potential, satellites, and escape velocity."],
+    ["Thermodynamics", "Laws of thermodynamics, heat engines, and kinetic theory."],
+    ["Kinetic Theory of Gases", "Molecular motion, gas laws, kinetic theory, and degrees of freedom."],
+    ["Current Electricity", "Circuits, resistance, Kirchhoff's laws, and electrical instruments."],
+  ],
+  chemistry: [
+    ["Some Basic Concepts of Chemistry", "Moles, atomic mass, percentage composition, and stoichiometry."],
+    ["Solutions", "Solubility, concentration, and colligative properties."],
+    ["Chemical Kinetics", "Rate laws, order of reaction, Arrhenius equation, and catalysis."],
+    ["Electrochemistry", "Conductance, galvanic cells, Nernst equation, and electrolysis."],
+    ["Thermodynamics", "Enthalpy, entropy, Gibbs energy, and spontaneity of reactions."],
+    ["Equilibrium", "Chemical and ionic equilibrium, acids, bases, buffers, and solubility."],
+    ["Structure of Atom", "Quantum numbers, orbitals, electronic configuration, and spectra."],
+    ["States of Matter", "Gas laws, kinetic theory, liquids, and intermolecular forces."],
+    ["Chemical Bonding and Molecular Structure", "Ionic and covalent bonding, VSEPR, hybridisation, and molecular orbital theory."],
+    ["Coordination Compounds", "Nomenclature, isomerism, bonding, and applications."],
+    ["Classification of Elements and Periodicity in Properties", "Periodic trends, electronic configuration, and elemental classification."],
+    ["The D and F Block Elements", "Transition metals, electronic configurations, chemistry of the d- and f-blocks."],
+    ["Hydrocarbons", "Alkanes, alkenes, alkynes, aromatic compounds, and reactions."],
+    ["Biomolecules and Polymers", "Carbohydrates, proteins, nucleic acids, and synthetic polymers."],
+    ["Alcohols, Phenols and Ethers", "Structure, nomenclature, properties, and reactions."],
+    ["Aldehydes Ketones and Carboxylic Acids", "Nomenclature, reactions, and important functional group chemistry."],
+    ["Amines", "Structure, classification, basicity, and reactions of amines."],
+    ["Haloalkanes and Haloarenes", "Nucleophilic substitutions, elimination, and aromatic halide chemistry."],
+    ["Organic Chemistry Some Basic Principles &﻿ Techniques", "Organic reaction mechanisms, resonance, inductive effect, and experimental techniques."],
+    ["Redox Reactions", "Oxidation-reduction processes, redox equations, and electrochemical basics."]
+  ],
+  mathematics: [
+    ["Sets", "Basic set theory: notation, subsets, set operations, Venn diagrams, and applications."],
+    ["Relation and Function", "Relations: types and properties; Functions: definition, composition, inverse, and graphs."],
+    ["Trigonometric Functions", "Trigonometric ratios, identities, graphs, and equations."],
+    ["Inverse Trigonometric Functions", "Principal values, domains, ranges, and properties of inverse trig functions."],
+    ["Complex Numbers and Quadratic Equations", "Algebra of complex numbers, Argand plane, geometric form; quadratic equations, roots, nature of roots, and related inequalities."],
+    ["Linear Inequalities", "Solving linear inequalities, inequalities in one and two variables, and systems."],
+    ["Straight Lines and Pair of Straight Lines", "Equations of lines, pair of lines, intersection, and angle between lines."],
+    ["Coordinate Geometry", "Straight lines, circles, conics, and their properties."],
+    ["Matrices", "Matrix operations, types of matrices, determinants, and applications."],
+    ["Determinants", "Determinant properties, evaluation, and applications to linear systems."],
+    ["Properties of Triangle", "Triangle geometry: centers, congruence, similarity, and notable properties."],
+    ["Statistics", "Data representation, mean, median, mode, variance, and standard deviation."],
+    ["Probability", "Basic probability, conditional probability, and common distributions."],
+    ["Limits and Derivatives", "Limits, basic derivative rules, and interpretations."],
+    ["Continuity and Differentiability", "Definitions of continuity and differentiability and their relation."],
+    ["Integral", "Indefinite and definite integrals, basic techniques and fundamental theorem."],
+    ["Application of integral", "Area between curves, volumes, and other applications of integrals."],
+    ["Differential Equations", "Formation, order, degree, and standard first-order equations."],
+    ["Vectors", "Vector algebra: addition, scalar and vector products, and applications."],
+    ["Three-Dimensional Geometry", "Lines, planes, direction ratios, and distances in 3D."]
+  ]
+};
+
+const additionalPhysicsChapters = [
+  ["Motion in a Straight Line and Plane", "Motion graphs, relative motion, vectors, and projectile motion."],
+  ["System of Particles and Rotational Motion", "Centre of mass, torque, angular momentum, rolling, and moment of inertia."],
+  ["Mechanical Properties of Solids", "Stress, strain, elasticity, Young's modulus, and elastic energy."],
+  ["Mechanical Properties of Fluids", "Pressure, viscosity, surface tension, Bernoulli's theorem, and fluid flow."],
+  ["Thermal Properties of Matter", "Thermal expansion, calorimetry, heat transfer, and change of state."],
+  ["Electric Charges and Fields", "Coulomb's law, electric field, dipole, flux, and Gauss's law."],
+  ["Electrostatic Potential and Capacitance", "Potential, capacitors, combinations, dielectrics, and stored energy."],
+  ["Moving Charges and Magnetism", "Lorentz force, Biot-Savart law, Ampere's law, and magnetic motion."],
+  ["Magnetism and Matter", "Magnetic materials, earth's magnetism, susceptibility, and hysteresis."],
+  ["Alternating Current and Electromagnetic Induction", "Faraday's law, Lenz's law, AC circuits, transformers, and generators."],
+  ["Ray Optics and Optical Instruments", "Reflection, refraction, lenses, mirrors, prisms, and optical instruments."],
+  ["Wave Optics", "Interference, diffraction, polarisation, and Young's double-slit experiment."],
+  ["Dual Nature of Matter and Radiation", "Photoelectric effect, matter waves, de Broglie relation, and photons."],
+  ["Atoms and Nuclei", "Atomic models, spectra, nuclear properties, radioactivity, and binding energy."],
+  ["Semiconductor Electronics", "Semiconductors, diodes, transistors, logic gates, and digital circuits."],
+  ["Electromagnetic Waves", "Properties of electromagnetic waves, spectrum, and applications."],
+  ["Oscillations", "Simple harmonic motion, energy, spring systems, and pendulums."],
+  ["Waves", "Wave motion, standing waves, sound, beats, and Doppler effect."]
+];
+
+jeeSyllabus.physics = [
+  ["Units and Measurements", "Dimensions, errors, significant figures, and instruments."],
+  ["Motion in a Straight Line and Plane", "Motion graphs, relative motion, vectors, and projectile motion."],
+  ["Laws of Motion", "Newton's laws, friction, circular motion, and connected bodies."],
+  ["Work, Energy and Power", "Work-energy theorem, power, collisions, and conservation laws."],
+  ["System of Particles and Rotational Motion", "Centre of mass, torque, angular momentum, rolling, and moment of inertia."],
+  ["Gravitation", "Gravitational field, potential, satellites, and escape velocity."],
+  ["Mechanical Properties of Solids", "Stress, strain, elasticity, Young's modulus, and elastic energy."],
+  ["Mechanical Properties of Fluids", "Pressure, viscosity, surface tension, Bernoulli's theorem, and fluid flow."],
+  ["Thermal Properties of Matter", "Thermal expansion, calorimetry, heat transfer, and change of state."],
+  ["Thermodynamics", "Laws of thermodynamics, heat engines, and kinetic theory."],
+  ["Kinetic Theory of Gases", "Molecular motion, gas laws, kinetic theory, and degrees of freedom."],
+  ["Oscillations", "Simple harmonic motion, energy, spring systems, and pendulums."],
+  ["Waves", "Wave motion, standing waves, sound, beats, and Doppler effect."],
+  ["Electric Charges and Fields", "Coulomb's law, electric field, dipole, flux, and Gauss's law."],
+  ["Electrostatic Potential and Capacitance", "Potential, capacitors, combinations, dielectrics, and stored energy."],
+  ["Current Electricity", "Circuits, resistance, Kirchhoff's laws, and electrical instruments."],
+  ["Moving Charges and Magnetism", "Lorentz force, Biot-Savart law, Ampere's law, and magnetic motion."],
+  ["Magnetism and Matter", "Magnetic materials, earth's magnetism, susceptibility, and hysteresis."],
+  ["Alternating Current and Electromagnetic Induction", "Faraday's law, Lenz's law, AC circuits, transformers, and generators."],
+  ["Electromagnetic Waves", "Properties of electromagnetic waves, spectrum, and applications."],
+  ["Ray Optics and Optical Instruments", "Reflection, refraction, lenses, mirrors, prisms, and optical instruments."],
+  ["Wave Optics", "Interference, diffraction, polarisation, and Young's double-slit experiment."],
+  ["Dual Nature of Matter and Radiation", "Photoelectric effect, matter waves, de Broglie relation, and photons."],
+  ["Atoms and Nuclei", "Atomic models, spectra, nuclear properties, radioactivity, and binding energy."],
+  ["Semiconductor Electronics", "Semiconductors, diodes, transistors, logic gates, and digital circuits."]
+];
+
+const formulaLibrary = {
+  physics: [
+    [["Percentage error", "Percentage error = absolute error / measured value × 100"], ["Dimensional formula", "[Q] = MᵃLᵇTᶜ"]],
+    [["First equation", "v = u + at"], ["Projectile range", "R = u² sin 2θ / g"]],
+    [["Newton's second law", "F = ma"], ["Centripetal force", "F = mv² / r"]],
+    [["Work", "W = Fs cos θ"], ["Kinetic energy", "K = 1/2 mv²"]],
+    [["Torque", "τ = rF sin θ"], ["Angular momentum", "L = Iω"]],
+    [["Gravitational force", "F = Gm₁m₂ / r²"], ["Orbital speed", "v = √(GM / r)"]],
+    [["First law", "ΔQ = ΔU + W"], ["Ideal gas law", "PV = nRT"]],
+    [["Electric field", "E = F / q"], ["Capacitance", "C = Q / V"]],
+    [["Ohm's law", "V = IR"], ["Electrical power", "P = VI = I²R"]],
+    [["Magnetic force", "F = qvB sin θ"], ["Faraday's law", "ε = -dΦ / dt"]],
+    [["Lens formula", "1/f = 1/v - 1/u"], ["Young's fringe width", "β = λD / d"]],
+    [["Photon energy", "E = hν"], ["Radioactive decay", "N = N₀e⁻λᵗ"]]
+  ],
+  chemistry: [
+    [["Moles", "n = given mass / molar mass"], ["Molarity", "M = moles / volume in litres"]],
+    [["Photon energy", "E = hν"], ["de Broglie wavelength", "λ = h / mv"]],
+    [["Formal charge", "FC = valence e⁻ - nonbonding e⁻ - bonding e⁻/2"], ["Bond order", "Bond order = (bonding e⁻ - antibonding e⁻) / 2"]],
+    [["Ideal gas law", "PV = nRT"], ["Average kinetic energy", "E = 3RT / 2"]],
+    [["Gibbs energy", "ΔG = ΔH - TΔS"], ["Heat relation", "q = mcΔT"]],
+    [["Equilibrium constant", "Kc = [products] / [reactants]"], ["pH", "pH = -log[H⁺]"]],
+    [["Nernst equation", "E = E° - 0.0591 log Q / n"], ["Cell potential", "E°cell = E°cathode - E°anode"]],
+    [["Rate law", "Rate = k[A]ᵐ[B]ⁿ"], ["Arrhenius equation", "k = Ae⁻ᴱᵃ/ᴿᵀ"]],
+    [["Crystal field splitting", "Δo = 10Dq"], ["Magnetic moment", "μ = √n(n + 2) BM"]],
+    [["Molar mass", "M = mass / moles"], ["Degree of unsaturation", "DBE = (2C + 2 + N - H - X) / 2"]],
+    [["Alkene addition", "C=C + H₂ → alkane"], ["Benzene substitution", "C₆H₆ + E⁺ → substituted benzene"]],
+    [["Molarity", "M = moles / volume in litres"], ["Mole fraction", "Xᵢ = nᵢ / total moles"]]
+  ],
+  mathematics: [
+    [["Combination", "ⁿCᵣ = n! / (r!(n-r)!)"], ["Function composition", "(f ∘ g)(x) = f(g(x))"]],
+    [["Modulus", "|z| = √(x² + y²)"], ["Euler form", "eⁱθ = cos θ + i sin θ"]],
+    [["Quadratic roots", "x = (-b ± √D) / 2a"], ["Discriminant", "D = b² - 4ac"]],
+    [["AP nth term", "aₙ = a + (n - 1)d"], ["GP sum", "Sₙ = a(rⁿ - 1) / (r - 1)"]],
+    [["Permutations", "ⁿPᵣ = n! / (n-r)!"], ["Circular arrangements", "Arrangements = (n - 1)!"]],
+    [["Binomial term", "Tᵣ₊₁ = ⁿCᵣ aⁿ⁻ʳbʳ"], ["Binomial coefficient", "ⁿCᵣ = ⁿCₙ⁻ʳ"]],
+    [["Derivative of xⁿ", "d(xⁿ)/dx = nxⁿ⁻¹"], ["Product rule", "(uv)' = u'v + uv'"]],
+    [["Fundamental theorem", "∫ₐᵇ f(x)dx = F(b) - F(a)"], ["Integration by parts", "∫u dv = uv - ∫v du"]],
+    [["Linear differential equation", "dy/dx + Py = Q"], ["Auxiliary equation", "CF from auxiliary equation = 0"]],
+    [["Distance between points", "d = √((x₂-x₁)² + (y₂-y₁)²)"], ["Circle equation", "(x-h)² + (y-k)² = r²"]],
+    [["Dot product", "a·b = |a||b| cos θ"], ["Scalar triple product", "[a b c] = a·(b×c)"]],
+    [["Conditional probability", "P(A|B) = P(A∩B) / P(B)"], ["Variance", "σ² = E(X²) - [E(X)]²"]]
+  ]
+};
+
+const advancedQuestions = {
+  physics: [
+    {
+      question: "A projectile is fired with speed u at angle θ. Its range is maximum when θ equals:",
+      options: ["30°", "45°", "60°", "90°"],
+      answer: 1
+    },
+    {
+      question: "A block slides down a rough incline at constant speed. The net force along the incline is:",
+      options: ["mg", "mg sin θ", "Zero", "μmg"],
+      answer: 2
+    },
+    {
+      question: "A body of mass m moving with speed v has kinetic energy K. If its speed becomes 2v, its kinetic energy becomes:",
+      options: ["K/2", "2K", "4K", "K + 2"],
+      answer: 2
+    },
+    {
+      question: "The escape velocity from Earth is vₑ. For a planet with the same density but twice Earth's radius, escape velocity is:",
+      options: ["vₑ/2", "vₑ", "2vₑ", "4vₑ"],
+      answer: 2
+    },
+    {
+      question: "Two capacitors of capacitance C are connected in series. Their equivalent capacitance is:",
+      options: ["C/2", "C", "2C", "C²"],
+      answer: 0
+    },
+    {
+      question: "In a photoelectric experiment, stopping potential depends primarily on the light's:",
+      options: ["Intensity", "Frequency", "Distance from source", "Polarisation only"],
+      answer: 1
+    }
+  ],
+  chemistry: [
+    {
+      question: "For a first-order reaction, the half-life is:",
+      options: ["Dependent on initial concentration", "Independent of initial concentration", "Always zero", "Proportional to concentration squared"],
+      answer: 1
+    },
+    {
+      question: "At equilibrium, increasing the pressure of a gaseous reaction shifts equilibrium toward the side with:",
+      options: ["More gas moles", "Fewer gas moles", "More solid", "Higher temperature"],
+      answer: 1
+    },
+    {
+      question: "The hybridisation of carbon atoms in benzene is:",
+      options: ["sp", "sp²", "sp³", "dsp²"],
+      answer: 1
+    },
+    {
+      question: "A positive value of ΔG for a reaction at constant temperature and pressure indicates that the reaction is:",
+      options: ["Spontaneous", "Non-spontaneous", "At equilibrium always", "Exothermic necessarily"],
+      answer: 1
+    },
+    {
+      question: "The oxidation state of chromium in K₂Cr₂O₇ is:",
+      options: ["+3", "+4", "+6", "+7"],
+      answer: 2
+    },
+    {
+      question: "A buffer solution resists change in pH when a small amount of acid or base is added because it contains:",
+      options: ["Only a strong acid", "Only a strong base", "A weak acid and its conjugate base", "Only water"],
+      answer: 2
+    }
+  ],
+  mathematics: [
+    {
+      question: "If the roots of x² - 5x + 6 = 0 are α and β, then α² + β² equals:",
+      options: ["11", "13", "17", "25"],
+      answer: 1
+    },
+    {
+      question: "The derivative of sin(x²) with respect to x is:",
+      options: ["cos(x²)", "2x cos(x²)", "2x sin(x²)", "x cos x"],
+      answer: 1
+    },
+    {
+      question: "The sum of the infinite geometric series 1 + 1/2 + 1/4 + ... is:",
+      options: ["1", "2", "3", "Does not exist"],
+      answer: 1
+    },
+    {
+      question: "The distance between (1, 2, 3) and (4, 6, 3) is:",
+      options: ["3", "4", "5", "6"],
+      answer: 2
+    },
+    {
+      question: "If two events A and B are independent, then P(A ∩ B) equals:",
+      options: ["P(A) + P(B)", "P(A)P(B)", "P(A) / P(B)", "P(A) - P(B)"],
+      answer: 1
+    },
+    {
+      question: "The area under y = 2x from x = 0 to x = 3 is:",
+      options: ["3", "6", "9", "12"],
+      answer: 2
+    }
+  ]
+};
+
+const params = new URLSearchParams(window.location.search);
+const selectedSubject = params.get("subject") || "physics";
+const subject = subjectData[selectedSubject] || subjectData.physics;
+const storageConfig = window.STUDY_SPRINT_STORAGE || { baseUrl: "", files: {} };
+
+if (!storageConfig.files.physics) {
+  storageConfig.files.physics = {};
+}
+
+if (!storageConfig.files.physics["Kinetic Theory of Gases"]) {
+  storageConfig.files.physics["Kinetic Theory of Gases"] = "Physics-Kinetic Theory of Gases.pdf";
+}
+
+function getChapterFile(subjectKey, chapterTitle) {
+  const configuredFile = storageConfig.files?.[subjectKey]?.[chapterTitle];
+  const baseUrl = storageConfig.baseUrl ? storageConfig.baseUrl.replace(/\/$/, "") : "";
+
+  if (configuredFile) {
+
+    return baseUrl ? `${baseUrl}/${encodeURI(configuredFile)}` : configuredFile;
+  }
+
+  if (subjectKey === "physics" && baseUrl) {
+    const safeTitle = String(chapterTitle).replace(/[:\\/\\?\"\*<>\|]/g, "").trim();
+    const filename = `Physics-${safeTitle}.pdf`;
+    return `${baseUrl}/${encodeURIComponent(filename)}`;
+  }
+
+  if (subjectKey === "mathematics" && baseUrl) {
+    const safeTitle = String(chapterTitle).replace(/[:\\/\\?\"\*<>\|]/g, "").trim();
+    const filename = `Maths-${safeTitle}.pdf`;
+    return `${baseUrl}/${encodeURIComponent(filename)}`;
+  }
+
+  if (subjectKey === "chemistry" && baseUrl) {
+    const safeTitle = String(chapterTitle).replace(/[:\\\/\?\"\*<>\|]/g, "").trim();
+    const filename = `Chemistry-${safeTitle}.pdf`;
+    return `${baseUrl}/${encodeURIComponent(filename)}`;
+  }
+
+  return "#quiz";
+}
+
+subject.chapters = jeeSyllabus[selectedSubject].map(([title, description]) => {
+  const existingChapter = subject.chapters.find((chapter) => chapter.title === title);
+
+  return existingChapter || { title, description };
+});
+
+// Do not auto-add chemistry PDFs as chapters; use the fixed chemistry syllabus instead.
+subject.badge = `${subject.name} / JEE SYLLABUS`;
+subject.formulas = formulaLibrary[selectedSubject].flat();
+subject.questions = [
+  ...subject.chapters.flatMap((chapter) => chapter.quiz || []),
+  ...advancedQuestions[selectedSubject]
+];
+subject.mindmap = subject.chapters.slice(0, 5).map((chapter) => chapter.title);
+document.body.classList.add(`subject-${selectedSubject}`);
+
+const subjectBadge = document.querySelector("#subjectBadge");
+const subjectTitle = document.querySelector("#subjectTitle");
+const subjectDescription = document.querySelector("#subjectDescription");
+const subjectOrb = document.querySelector("#subjectOrb");
+const heroArt = document.querySelector("#heroArt");
+const chapterGrid = document.querySelector("#chapterGrid");
+const formulaGrid = document.querySelector("#formulaGrid");
+const completedChapters = document.querySelector("#completedChapters");
+const totalChapters = document.querySelector("#totalChapters");
+const chapterCount = document.querySelector("#chapterCount");
+const formulaCount = document.querySelector("#formulaCount");
+const quizCount = document.querySelector("#quizCount");
+const questionText = document.querySelector("#questionText");
+const answerGrid = document.querySelector("#answerGrid");
+const quizFeedback = document.querySelector("#quizFeedback");
+const quizNumber = document.querySelector("#quizNumber");
+const nextQuestionButton = document.querySelector("#nextQuestionButton");
+const randomQuizButton = document.querySelector("#randomQuizButton");
+const previousFormulaButton = document.querySelector("#previousFormulaButton");
+const nextFormulaButton = document.querySelector("#nextFormulaButton");
+const themeButton = document.querySelector("#themeButton");
+const toast = document.querySelector("#toast");
+const navLinks = document.querySelectorAll('.main-nav a');
+
+let currentQuestionIndex = 0;
+let currentQuestionAnswered = false;
+let formulaStartIndex = 0;
+let completedChapterIds = JSON.parse(
+  localStorage.getItem(`completed-${selectedSubject}`) || "[]"
+);
+function applySubjectTheme() {
+  document.documentElement.style.setProperty("--primary", subject.color);
+  document.documentElement.style.setProperty("--primary-dark", subject.darkColor);
+
+  subjectBadge.textContent = subject.badge;
+  subjectTitle.textContent = subject.title;
+  subjectDescription.textContent = subject.description;
+  subjectOrb.textContent = subject.icon;
+
+  totalChapters.textContent = subject.chapters.length;
+  chapterCount.textContent = subject.chapters.length;
+  formulaCount.textContent = `${subject.formulas.length}+`;
+  quizCount.textContent = subject.questions.length * 7;
+
+  navLinks.forEach((link) => {
+    link.classList.remove("active");
+
+    const href = link.getAttribute("href");
+    if (!href) return;
+
+    const linkUrl = new URL(href, window.location.href);
+    const currentUrl = new URL(window.location.href);
+    const currentSubject = currentUrl.searchParams.get("subject") || "physics";
+
+    if (
+      linkUrl.pathname.endsWith("subject.html") &&
+      linkUrl.searchParams.get("subject") === currentSubject
+    ) {
+      link.classList.add("active");
+    }
+  });
+
+  document.title = `JEE साथी | ${subject.name}`;
+}
+
+function renderChapters() {
+  chapterGrid.innerHTML = "";
+
+  subject.chapters.forEach((chapter, index) => {
+    const chapterId = `${selectedSubject}-${index}`;
+    const isCompleted = completedChapterIds.includes(chapterId);
+    const pyqLink = getChapterFile(selectedSubject, chapter.title);
+
+    const card = document.createElement("article");
+    card.className = `chapter-card ${isCompleted ? "completed" : ""}`;
+
+    card.innerHTML = `
+      <span class="chapter-number">CHAPTER ${String(index + 1).padStart(2, "0")}</span>
+      <h3>${chapter.title}</h3>
+      <p>${chapter.description}</p>
+      <div class="chapter-pyq">
+        <span>PYQ</span>
+        <a class="chapter-pyq-button" href="${pyqLink}">All PYQ ↓</a>
+      </div>
+      <button class="complete-button" data-id="${chapterId}">
+        ${isCompleted ? "✓ Completed" : "Mark complete"}
+      </button>
+    `;
+
+    chapterGrid.appendChild(card);
+
+    // If maths or chemistry subject, try several candidate filenames on GitHub raw to find the uploaded PDF.
+      if ((selectedSubject === "mathematics" || selectedSubject === "chemistry") && storageConfig.baseUrl) {
+        // Attempt to fetch repo file list from GitHub and map exact PDF filenames to chapters.
+        (async () => {
+          try {
+            const apiUrl = `https://api.github.com/repos/studysprintjee-code/studysprint-jee/git/trees/main?recursive=1`;
+            const resp = await fetch(apiUrl);
+            if (!resp.ok) return;
+            const tree = (await resp.json()).tree || [];
+            const pdfPaths = tree
+              .filter((item) => item.path && item.path.toLowerCase().endsWith('.pdf'))
+              .map((item) => item.path);
+
+            if (!pdfPaths.length) return;
+
+            const anchor = card.querySelector('.chapter-pyq-button');
+            if (!anchor) return;
+
+            const norm = (s) =>
+              String(s)
+                .toLowerCase()
+                .replace(/maths-|physics-|physics-|chemistry-|chemistry-|\.(pdf)$/g, '')
+                .replace(/[^a-z0-9]+/g, '');
+
+            const chapterNorm = norm(chapter.title);
+
+            // Try to find a pdf whose normalized name contains the chapter normalized name
+            let found = pdfPaths.find((p) => norm(p).includes(chapterNorm));
+
+            // If not found, try more permissive contains checks
+            if (!found) {
+              found = pdfPaths.find((p) => norm(chapter.title.split(' ')[0]) && norm(p).includes(norm(chapter.title.split(' ')[0])));
+            }
+
+            if (found) {
+              const rawBase = storageConfig.baseUrl.replace(/\/$/, '');
+              anchor.href = encodeURI(`${rawBase}/${found}`);
+            }
+          } catch (e) {
+            // network or parsing error — ignore silently
+          }
+        })();
+      }
+  });
+
+  updateChapterProgress();
+}
+
+function updateChapterProgress() {
+  completedChapters.textContent = completedChapterIds.length;
+}
+
+chapterGrid.addEventListener("click", (event) => {
+  const button = event.target.closest(".complete-button");
+
+  if (!button) {
+    return;
+  }
+
+  const chapterId = button.dataset.id;
+
+  if (completedChapterIds.includes(chapterId)) {
+    completedChapterIds = completedChapterIds.filter((id) => id !== chapterId);
+  } else {
+    completedChapterIds.push(chapterId);
+  }
+
+  localStorage.setItem(
+    `completed-${selectedSubject}`,
+    JSON.stringify(completedChapterIds)
+  );
+
+  renderChapters();
+  showToast("Chapter progress updated");
+});
+
+function renderFormulas(startIndex = 0) {
+  formulaGrid.innerHTML = "";
+  formulaStartIndex = (startIndex + subject.formulas.length) % subject.formulas.length;
+
+  const formulasToShow = Array.from({ length: 3 }, (_, offset) =>
+    subject.formulas[(formulaStartIndex + offset) % subject.formulas.length]
+  );
+
+  formulasToShow.forEach(([title, formula]) => {
+    const card = document.createElement("article");
+    card.className = "formula-card";
+    card.innerHTML = `
+      <p>${title}</p>
+      <code>${formula}</code>
+    `;
+    formulaGrid.appendChild(card);
+  });
+}
+
+previousFormulaButton.addEventListener("click", () => {
+  renderFormulas(formulaStartIndex - 3);
+  showToast("Previous formulas loaded");
+});
+
+nextFormulaButton.addEventListener("click", () => {
+  renderFormulas(formulaStartIndex + 3);
+  showToast("Next formulas loaded");
+});
+
+function loadQuestion() {
+  const question = subject.questions[currentQuestionIndex];
+
+  currentQuestionAnswered = false;
+  questionText.textContent = question.question;
+  quizNumber.textContent =
+    `Question ${currentQuestionIndex + 1} of ${subject.questions.length}`;
+  quizFeedback.textContent = "Select one answer.";
+  nextQuestionButton.disabled = true;
+  answerGrid.innerHTML = "";
+
+  question.options.forEach((option, index) => {
+    const button = document.createElement("button");
+    button.className = "answer-button";
+    button.textContent = `${String.fromCharCode(65 + index)}. ${option}`;
+    button.dataset.index = index;
+    answerGrid.appendChild(button);
+  });
+}
+
+answerGrid.addEventListener("click", (event) => {
+  const answerButton = event.target.closest(".answer-button");
+
+  if (!answerButton || currentQuestionAnswered) {
+    return;
+  }
+
+  currentQuestionAnswered = true;
+
+  const selectedAnswer = Number(answerButton.dataset.index);
+  const correctAnswer = subject.questions[currentQuestionIndex].answer;
+  const allAnswerButtons = answerGrid.querySelectorAll(".answer-button");
+
+  allAnswerButtons.forEach((button, index) => {
+    button.disabled = true;
+
+    if (index === correctAnswer) {
+      button.classList.add("correct");
+    }
+  });
+
+  if (selectedAnswer === correctAnswer) {
+    quizFeedback.textContent = "Correct! Excellent work.";
+  } else {
+    answerButton.classList.add("wrong");
+    quizFeedback.textContent = "Not quite. Review the highlighted answer.";
+  }
+
+  nextQuestionButton.disabled = false;
+});
+
+nextQuestionButton.addEventListener("click", () => {
+  currentQuestionIndex =
+    (currentQuestionIndex + 1) % subject.questions.length;
+
+  loadQuestion();
+});
+
+randomQuizButton.addEventListener("click", () => {
+  currentQuestionIndex = Math.floor(Math.random() * subject.questions.length);
+  loadQuestion();
+  document.querySelector("#quiz").scrollIntoView({ behavior: "smooth" });
+});
+
+themeButton.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+
+  localStorage.setItem(
+    "dark-mode",
+    document.body.classList.contains("dark-mode")
+  );
+});
+
+function showToast(message) {
+  toast.textContent = message;
+  toast.classList.add("show");
+
+  setTimeout(() => {
+    toast.classList.remove("show");
+  }, 1800);
+}
+
+if (localStorage.getItem("dark-mode") === "true") {
+  document.body.classList.add("dark-mode");
+}
+
+applySubjectTheme();
+renderChapters();
+renderFormulas();
+loadQuestion();

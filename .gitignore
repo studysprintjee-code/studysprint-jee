@@ -1,0 +1,7 @@
+# Local development and editor files
+.vscode/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
