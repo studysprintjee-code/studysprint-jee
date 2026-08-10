@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const scheduleBody = document.querySelector("#scheduleBody");
 const emptyMessage = document.querySelector("#emptyMessage");
 const addRowButton = document.querySelector("#addRowButton");
@@ -90,7 +89,6 @@ addRowButton.addEventListener("click", () => {
 
 saveButton.addEventListener("click", () => saveSchedule());
 renderSchedule();
-=======
 const scheduleBody = document.querySelector("#scheduleBody");
 const emptyMessage = document.querySelector("#emptyMessage");
 const addRowButton = document.querySelector("#addRowButton");
@@ -182,4 +180,3 @@ addRowButton.addEventListener("click", () => {
 
 saveButton.addEventListener("click", () => saveSchedule());
 renderSchedule();
->>>>>>> 1e88c0d0eee2de08cc3ed4e82c9c198e5849b700

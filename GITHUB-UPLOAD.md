@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Upload StudySprint to GitHub Pages
 
 ## Upload without Git
@@ -44,7 +43,6 @@ files: {
 For local files in the repository, keep `baseUrl` empty. Do not upload AWS, Backblaze, or GitHub access keys.
 
 GitHub's browser upload is limited for large files. Keep each PDF below 25 MB for browser upload, or use Git/GitHub Desktop for files between 25 MB and 100 MB. Never upload files over 100 MB without Git LFS.
-=======
 # Upload StudySprint to GitHub Pages
 
 ## Upload without Git
@@ -90,4 +88,3 @@ files: {
 For local files in the repository, keep `baseUrl` empty. Do not upload AWS, Backblaze, or GitHub access keys.
 
 GitHub's browser upload is limited for large files. Keep each PDF below 25 MB for browser upload, or use Git/GitHub Desktop for files between 25 MB and 100 MB. Never upload files over 100 MB without Git LFS.
->>>>>>> 1e88c0d0eee2de08cc3ed4e82c9c198e5849b700

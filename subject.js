@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const subjectData = {
   physics: {
     name: "Physics",
@@ -892,83 +891,6 @@ applySubjectTheme();
 renderChapters();
 renderFormulas();
 loadQuestion();
-=======
-const subjectData = {
-  physics: {
-    name: "Physics",
-    icon: "⚛",
-    color: "#315bea",
-    darkColor: "#172b78",
-    title: "Explore the laws of motion.",
-    description:
-      "Build strong concepts, understand the universe, and practise important JEE-level problems.",
-    chapters: [
-      {
-        title: "Units and Measurements",
-        description: "Dimensions, errors, significant figures, and instruments.",
-        concept:
-          "Measurement gives meaning to physical quantities. Every measurement contains a unit and may include a small experimental error.",
-        points: [
-          "Use dimensions to check whether an equation is physically possible.",
-          "Significant figures communicate the precision of a measurement.",
-          "Absolute error is the difference between measured and true value.",
-          "Dimensional analysis cannot determine numerical constants."
-        ],
-        formulas: [
-          [
-            "Percentage error",
-            "Percentage error = absolute error / measured value × 100"
-          ],
-          ["Dimensional formula", "[Q] = MᵃLᵇTᶜ"],
-          ["Mean value", "Mean = sum of observations / number of observations"]
-        ],
-        map: ["Measurement", "Units", "Dimensions", "Errors"],
-        quiz: [
-          {
-            question: "Which is a fundamental SI quantity?",
-            options: ["Force", "Energy", "Mass", "Pressure"],
-            answer: 2
-          },
-          {
-            question: "The dimension of velocity is:",
-            options: ["[LT⁻¹]", "[LT⁻²]", "[MLT⁻¹]", "[M⁰L⁰T⁰]"],
-            answer: 0
-          }
-        ]
-      },
-      {
-        title: "Kinematics",
-        description: "Motion in one dimension, vectors, and projectile motion.",
-        concept:
-          "Kinematics describes motion using displacement, velocity, acceleration, and time without discussing the cause of motion.",
-        points: [
-          "Displacement is a vector, while distance is a scalar.",
-          "The slope of a position-time graph gives velocity.",
-          "The slope of a velocity-time graph gives acceleration.",
-          "Projectile motion combines horizontal and vertical motion."
-        ],
-        formulas: [
-          ["First equation", "v = u + at"],
-          ["Second equation", "s = ut + 1/2 at²"],
-          ["Third equation", "v² = u² + 2as"]
-        ],
-        map: ["Kinematics", "Displacement", "Velocity", "Acceleration"],
-        quiz: [
-          {
-            question: "The slope of a velocity-time graph represents:",
-            options: ["Distance", "Acceleration", "Displacement", "Jerk"],
-            answer: 1
-          },
-          {
-            question: "Which quantity is scalar?",
-            options: ["Velocity", "Displacement", "Speed", "Acceleration"],
-            answer: 2
-          }
-        ]
-      }
-    ]
-  },
-  chemistry: {
     name: "Chemistry",
     icon: "🧪",
     color: "#20a36a",
@@ -1627,4 +1549,3 @@ applySubjectTheme();
 renderChapters();
 renderFormulas();
 loadQuestion();
->>>>>>> 1e88c0d0eee2de08cc3ed4e82c9c198e5849b700

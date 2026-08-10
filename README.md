@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This site now uses a single main page only.
 
 ## S3 file storage
@@ -23,7 +22,6 @@ Do not put AWS access keys or secret keys in this project. The browser only need
 ## GitHub Pages setup
 
 See `GITHUB-UPLOAD.md` for browser upload steps. The included GitHub Actions workflow deploys the static site automatically after files are committed to the `main` branch.
-=======
 This site now uses a single main page only.
 
 ## S3 file storage
@@ -48,4 +46,3 @@ Do not put AWS access keys or secret keys in this project. The browser only need
 ## GitHub Pages setup
 
 See `GITHUB-UPLOAD.md` for browser upload steps. The included GitHub Actions workflow deploys the static site automatically after files are committed to the `main` branch.
->>>>>>> 1e88c0d0eee2de08cc3ed4e82c9c198e5849b700

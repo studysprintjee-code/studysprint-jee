@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const questionBanks = {
   physics: [
     { question: "A projectile is fired with speed u at angle θ. Its range is maximum when θ equals:", options: ["30°", "45°", "60°", "90°"], answer: 1 },
@@ -119,7 +118,6 @@ nextButton.addEventListener("click", () => {
 
 restartButton.addEventListener("click", startQuiz);
 startQuiz();
-=======
 const questionBanks = {
   physics: [
     { question: "A projectile is fired with speed u at angle θ. Its range is maximum when θ equals:", options: ["30°", "45°", "60°", "90°"], answer: 1 },
@@ -240,4 +238,3 @@ nextButton.addEventListener("click", () => {
 
 restartButton.addEventListener("click", startQuiz);
 startQuiz();
->>>>>>> 1e88c0d0eee2de08cc3ed4e82c9c198e5849b700

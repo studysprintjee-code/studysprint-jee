@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const weeklyPercent = document.querySelector("#weeklyPercent");
 const weeklyProgressFill = document.querySelector("#weeklyProgressFill");
 const topicsCovered = document.querySelector("#topicsCovered");
@@ -51,7 +50,6 @@ function renderDashboard() {
 
 renderDashboard();
 window.addEventListener("storage", renderDashboard);
-=======
 const weeklyPercent = document.querySelector("#weeklyPercent");
 const weeklyProgressFill = document.querySelector("#weeklyProgressFill");
 const topicsCovered = document.querySelector("#topicsCovered");
@@ -104,4 +102,3 @@ function renderDashboard() {
 
 renderDashboard();
 window.addEventListener("storage", renderDashboard);
->>>>>>> 1e88c0d0eee2de08cc3ed4e82c9c198e5849b700

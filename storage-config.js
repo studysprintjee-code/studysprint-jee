@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 window.STUDY_SPRINT_STORAGE = {
   // Replace with your S3, CloudFront, or GitHub raw base URL after uploading the files.
   // Use the GitHub Pages site URL so PDFs open inline in the browser instead of forcing download.
@@ -81,7 +80,6 @@ window.STUDY_SPRINT_STORAGE = {
     }
   }
 };
-=======
 window.STUDY_SPRINT_STORAGE = {
   // Replace with your S3 or CloudFront base URL after uploading the files.
   baseUrl: "",
@@ -116,4 +114,3 @@ window.STUDY_SPRINT_STORAGE = {
     mathematics: {}
   }
 };
->>>>>>> 1e88c0d0eee2de08cc3ed4e82c9c198e5849b700

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const quizQuestions = [
   {
     question: 'What is the acceleration of an object moving with constant velocity?',
@@ -165,7 +164,6 @@ nextQuestionBtn.addEventListener('click', () => {
 restartQuizBtn.addEventListener('click', startQuiz);
 
 startQuiz();
-=======
 const quizQuestions = [
   {
     question: 'What is the acceleration of an object moving with constant velocity?',
@@ -332,4 +330,3 @@ nextQuestionBtn.addEventListener('click', () => {
 restartQuizBtn.addEventListener('click', startQuiz);
 
 startQuiz();
->>>>>>> 1e88c0d0eee2de08cc3ed4e82c9c198e5849b700

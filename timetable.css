@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 :root {
   --ink: #18213b;
   --muted: #737c91;
@@ -118,7 +117,6 @@ td input:focus, td select:focus { border-color: var(--primary); box-shadow: 0 0 
   .save-button, .add-button { width: 100%; }
   .planner-panel { padding: 15px; }
 }
-=======
 :root {
   --ink: #18213b;
   --muted: #737c91;
@@ -238,4 +236,3 @@ td input:focus, td select:focus { border-color: var(--primary); box-shadow: 0 0 
   .save-button, .add-button { width: 100%; }
   .planner-panel { padding: 15px; }
 }
->>>>>>> 1e88c0d0eee2de08cc3ed4e82c9c198e5849b700
