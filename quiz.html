@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4GGJDB1DZ4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4GGJDB1DZ4');
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JEE Saathi | Quiz</title>
@@ -22,6 +30,7 @@
       <a href="subject.html?subject=mathematics">Maths</a>
       <a href="timetable.html">Study Plan</a>
       <a href="quiz.html">Quiz</a>
+      <a href="jee-mock.html">JEE Mock</a>
     </nav>
   </header>
 
@@ -32,7 +41,17 @@
         <h1>Choose your challenge</h1>
         <p>Test Physics, Chemistry, Mathematics, or mix all three for a complete practice round.</p>
       </div>
-      <div class="score-badge"><span id="scoreValue">0</span><small>score</small></div>
+      <div class="stats-badges">
+        <div class="timer-card" aria-live="polite">
+          <small>Time left</small>
+          <span id="timerDisplay">05:00</span>
+          <div class="timer-controls">
+            <button id="pauseTimerButton" class="timer-action" type="button">Stop</button>
+            <button id="resetTimerButton" class="timer-action secondary" type="button">Reset</button>
+          </div>
+        </div>
+        <div class="score-badge"><span id="scoreValue">0</span><small>score</small></div>
+      </div>
     </section>
 
     <nav class="subject-tabs" aria-label="Quiz subjects">
@@ -45,19 +64,52 @@
     <section class="quiz-panel">
       <div class="quiz-panel-top">
         <span id="quizModeLabel">Physics quiz</span>
-        <span id="questionProgress">Question 1 of 6</span>
+        <div class="panel-timers">
+          <span id="questionTimerDisplay" class="question-timer">Q 15s</span>
+          <span id="questionProgress">Question 1 of 6</span>
+        </div>
       </div>
       <div class="progress-track"><div id="progressFill" class="progress-fill"></div></div>
       <h2 id="questionText">Loading question...</h2>
       <div id="answerGrid" class="answer-grid"></div>
       <div class="quiz-footer">
         <p id="feedback">Select one answer.</p>
-        <button id="nextButton" class="next-button" type="button" disabled>Next question →</button>
+        <div class="footer-actions">
+          <button id="skipButton" class="skip-button" type="button">Skip</button>
+          <button id="nextButton" class="next-button" type="button" disabled>Next question →</button>
+        </div>
       </div>
     </section>
 
-    <button id="restartButton" class="restart-button" type="button">Restart quiz</button>
+    <div class="control-row">
+      <button id="startButton" class="start-button" type="button">Start quiz</button>
+      <button id="restartButton" class="restart-button" type="button">Restart quiz</button>
+    </div>
+
   </main>
+
+  <div id="resultModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="resultTitle">
+      <h3 id="resultTitle">Quiz complete</h3>
+      <p id="resultSummary">Nice work.</p>
+      <div class="result-stats">
+        <div>
+          <span id="resultScore">0</span>
+          <small>Score</small>
+        </div>
+        <div>
+          <span id="bestScore">0</span>
+          <small>Best</small>
+        </div>
+        <div>
+          <span id="resultTime">05:00</span>
+          <small>Time left</small>
+        </div>
+      </div>
+      <button id="closeModalButton" class="modal-button" type="button">Try again</button>
+    </div>
+  </div>
+
   <script src="quiz.js"></script>
 </body>
 </html>

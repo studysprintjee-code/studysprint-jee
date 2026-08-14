@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudySprint JEE | Mock Test 01</title>
+    <link rel="stylesheet" href="jee-mock.css" />
+  </head>
+  <body>
+    <header class="mock-header-bar">
+      <div class="brand-wrap">
+        <a class="brand" href="index.html"><span class="brand-mark">✦</span> <span>StudySprint</span> <span class="brand-accent">JEE</span></a>
+      </div>
+      <nav class="page-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="subject.html?subject=physics">Physics</a>
+        <a href="subject.html?subject=chemistry">Chemistry</a>
+        <a href="subject.html?subject=mathematics">Maths</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="jee-mock.html" class="active-link">Mock Test</a>
+      </nav>
+    </header>
+
+    <main class="mock-shell">
+      <section class="mock-hero">
+        <div>
+          <span class="eyebrow">Full Mock Test 01</span>
+          <h1>StudySprint JEE Mock</h1>
+          <p>75 high-intensity JEE Main questions based on the Mock Test 01 paper, with live timer and instant scoring.</p>
+        </div>
+        <div class="timer-card" aria-live="polite">
+          <small>Time left</small>
+          <span id="mockTimerDisplay">90:00</span>
+        </div>
+      </section>
+
+      <section class="mock-panel">
+        <div class="panel-top">
+          <div class="panel-badges">
+            <span class="pill">75 Questions</span>
+            <span class="pill">90 min</span>
+            <span class="pill">+4 / -1</span>
+          </div>
+          <span id="mockQuestionCounter">Question 1 / 75</span>
+        </div>
+
+        <div class="mock-question-block">
+          <div class="question-label">Single Correct</div>
+          <h2 id="mockQuestionText">Loading mock question...</h2>
+        </div>
+
+        <div id="mockOptions" class="mock-options" aria-live="polite"></div>
+
+        <div class="mock-actions">
+          <button id="mockMarkButton" class="mark-button" type="button">Mark for Review</button>
+          <button id="mockNextButton" class="next-button" type="button">Next Question</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="jee-mock.js"></script>
+  </body>
+</html>

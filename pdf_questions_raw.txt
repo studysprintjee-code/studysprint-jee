@@ -1,0 +1,2452 @@
+--- PAGE 1 ---
+Topics Covered (सम्मिलित पाठ्यक्रम) 
+Physics: Full Syllabus (पूर्ण पाठ्यक्रम) 
+Chemistry: Full Syllabus (पूर्ण पाठ्यक्रम) 
+Mathematics: Full Syllabus (पूर्ण पाठ्यक्रम) 
+General Instructions: 
+1. Immediately fill in the particulars on this page of the test booklet. 
+2. The test is of 3 hours duration. 
+3. The test booklet consists of 75 questions. The maximum marks are
+300. 
+4. There are three sections in the question paper, Section I, II & III 
+consisting of Section-I (Physics), Section-II (Chemistry), Section-
+III (Mathematics) and having 25 questions in each Section in 
+which first 20 questions are Objective Type and last 5 questions 
+are integer type with answers ranging from ‘0’ to ‘999’ where 
+answer needs to be rounded off to the nearest integer and all 25 
+questions are compulsory. 
+5. There is only one correct response for each objective type question. 
+6. Each correct answer will give 4 marks while 1 Mark will b e 
+deducted for a wrong response. 
+7. No student is allowed to carry any textual material, printed or 
+written, bits of papers, pager, mobile phone, any electronic device, 
+etc. inside the examination room/hall. 
+8. On completion of the test, the candidate must hand over the Answer 
+Sheet to the Invigilator on duty in the Room/Hall. However, the 
+candidates are allowed to take away this Test Booklet with them. 
+9. Do not fold or make any stray mark on the Answer Sheet 
+(OMR). 
+OMR Instructions: 
+1. Use blue/black dark ballpoint pens.
+2. Darken the bubbles completely. Don't put a tick mark or a cross 
+mark where it is specified that you fill the bubbles completely. Half-
+filled or over-filled bubbles will not be read by the software. 
+3. Never use pencils to mark your answers. 
+4. Never use whiteners to rectify filling errors as they may disrupt the 
+scanning and evaluation process. 
+5. Writing on the OMR Sheet is permitted on the specified area only 
+and even small marks other than the specified area may create 
+problems during the evaluation. 
+6. Multiple markings will be treated as invalid responses.
+lkekU; funsZ'k% 
+1- ijh{kk iqfLrdk ds bl i`"B ij rqjar fooj.k HkjsaA
+2- ijh{kk dh vof/k 3 ?kaVs gSA
+3- ijh{kk iqfLrdk esa 75 ç'u gSaA vf/kdre vad 300 gSaA
+4- ç'u i= esa rhu [kaM gSa] [kaM I] II ,oa III esa [kaM&I ¼HkkSfrd foKku½]
+[kaM&II ¼jlk;u foKku½] [kaM&III ¼xf.kr½ lfEefyr gSa rFkk çR;sd Hkkx
+esa 25 ç'u gSa ftlesa igys 20 ç'u vfuok;Z gSa ,oa oLrqfu"B çdkj ds gSa
+rFkk vafre 5 ç'u iw.kkaZd çdkj ds gSa] ftuds mÙkj ^0* ls ^999* rd gSa]
+tgka mÙkj dks fudVre iw.kkaZd esa iw.kkaZfdr fd;k tkuk pkfg,A vkSj lHkh
+25 iz”u vfuok;Z gaSA
+5- çR;sd oLrqfu"B çdkj ds ç'u ds fy, dsoy ,d mÙkj gh lgh gksxkA
+6- çR;sd lgh mÙkj ds fy, 4 vad fn, tk,axs tcfd xyr mÙkj ds fy,
+1 vad dkVk tk,xkA
+7- fdlh Hkh Nk= dks ijh{kk d{k@g‚y ds vanj dksbZ Hkh eqfær ;k fyf[kr
+ikBî lkexzh] dkxt ds VqdM+s] eksckby Qksu] dksbZ bysDVª‚fud midj.k
+vkfn ys tkus dh vuqefr ugha gSA
+8- ijh{kk iwjk gksus ij] mEehnokj dks mÙkj iqfLrdk dejs@g‚y esa MîwVh
+ij ekStwn fujh{kd dks lkSaiuh gksxhA gkykafd] vH;fFkZ;ksa dks ;g VsLV
+cqdysV vius lkFk ys tkus dh vuqefr gSA
+9- mÙkj iqfLrdk ¼OMR½ dks u eksM+sa rFkk u gh ml ij fdlh çdkj dk
+fu'kku cuk,aA
+OMR funsZ'k%
+1- uhys@dkys xgjs c‚y i‚baV isu dk ç;ksx djsaA
+2- xksyksa dks iwjh rjg ls dkyk dj nsaA tgka ;g fufnZ"V fd;k x;k gks fd
+vkidks xksys iwjh rjg ls Hkjus gSa] ogka lgh fu'kku ;k Ø‚l fu'kku u
+yxk,aA vk/ks&Hkjs ;k vf/kd&Hkjs xksys l‚¶Vos;j }kjk ugha i<+s tk,axsA
+3- viuk mÙkj vafdr djus ds fy, dHkh Hkh isafly dk ç;ksx u djsaA
+4- Hkjus dh =qfV;ksa dks lq/kkjus ds fy, dHkh Hkh lQsnh dk mi;ksx u djsa
+D;ksafd os LdSfuax rFkk ewY;kadu çfØ;k dks ckf/kr dj ldrs gSaA
+5- OMR 'khV ij dsoy fufnZ"V {ks= ij fy[kus dh vuqefr gS rFkk fufnZ"V
+{ks= ds vykok fdlh çdkj ds NksVs fu'kku Hkh ewY;kadu ds nkSjku
+leL;k,a mRiUu dj ldrs gSaA
+6- ,d ls vf/kd xksys Hkjus ij vekU; mÙkj ekuk tk,xkA
+DURATION : 90 Minutes DURATION : 180 Minutes M.MARKS : 300DATE : 16/12/2025 
+JEE Main Mock Test (2026) 
+MOCK TEST - 01 
+Name of the Student (In CAPITALS) : _______________________________________________________________ 
+Roll Number : _____________________________________________________________________________________________ 
+OMR Bar Code Number : ________________________________________________________________________________ 
+Candidate’s Signature : _______________________________  Invigilator’s Signature _____________________ 
+
+--- PAGE 2 ---
+  [2] 
+SECTION-I (PHYSICS)
+Single Correct Type Questions 
+1. Which of the following statements is false for a 
+particle moving in a circle with a constant angular 
+speed 
+ (1) The velocity vector is tangent to the circle 
+ (2) The acceleration vector is tangent to the circle 
+ (3) The acceleration vector points to the centre of 
+the circle 
+ (4)  The velocity and acceleration vectors are 
+perpendicular to each other 
+ 
+2. The stress versus strain graphs for wires of two 
+materials A and B are as shown in the figure. If  
+AY  
+and 
+BY  are the Young's moduli of the materials, then 
+ 
+  
+ (1) 
+2=BAYY  (2) 
+=ABYY  
+ (3) 
+3=BAYY  (4) 
+3=ABYY  
+ 
+3. A system has basic dimensions as density 
+ D , 
+velocity 
+ V  and area 
+ A . The dimensional 
+representation of torque in this system is: 
+ (1) 
+2AV D  (2) 
+2A VD  
+ (3) 
+3/2 2A V D  (4) 
+3/2AV D  
+ 
+4. The pressure inside the two soap bubbles is 
+1.01  and 
+1.02
+ atmosphere. The ratio of their respective 
+volumes is (where atmospheric pressure = 1 atm) 
+ (1) 16 (2) 8 
+ (3) 4 (4) 2 
+ 
+5. Consider two containers 
+A  and 
+B  containing 
+identical gases at the same pressure, volume and 
+temperature. The gas in container A is compressed to 
+half of its original volume isothermally while the gas 
+in container 
+B  is compressed to half of its original 
+volume adiabatically. The ratio of final pressure of 
+gas in 
+B  to that of gas in A is (for gas 
+=P
+V
+C
+C ) 
+ (1) 
+12−  (2) 
+11
+2
+−
+
+  
+ (3) 
+2
+1
+1
+
+ −  (4) 
+2
+1
+1
+
+−  
+,d lgh fodYi çdkj ds ç'u 
+1. निम्ननिखित में से कौि सा कथि एक कण के निए गित है 
+जो एक खिर कोणीय गनत के साथ एक वृत्त में घूम रहा है 
+ (1) वेग सनिश वृत्त के स्पशश र े िा है 
+ (2) त्वरण सनिश वृत्त के स्पशश र े िा है 
+ (3) त्वरण सनिश वृत्त के क ें द्र की ओर इंनगत करता है 
+ (4) वेग और त्वरण सनिश एक ि ू सर े के िंबवत हैं 
+ 
+2. िो पिाथों A और B के तारों के निए प्रनतबि बिाम नवक ृ नत 
+ग्राफ नित्र में नििाए गए हैं। यनि 
+AY  और 
+BY  पिाथों के 
+यंग मापांक हैं, तो 
+ 
+ (1) 
+2=BAYY  (2) 
+=ABYY  
+ (3) 
+3=BAYY  (4) 
+3=ABYY  
+ 
+3. एक निकाय में आधारी नवमायें इस प्रकार है घित्व [D], वेग 
+[V] तथा क्षेत्रफि [A] । इस निकाय में, बि आघूणश की 
+नवमायें है 
+ (1) 
+2AV D  (2) 
+2A VD  
+ (3) 
+3/2 2A V D  (4) 
+3/2AV D  
+ 
+4. िो साबुि के बुिबुिों के अंिर का िाब 1.01 और 1.02 
+वायुमंडि है। उिक े संबंनधत आयतिों का अिुपात है [जहााँ 
+वायुमंडलीय दाब = 1 atm] 
+ (1) 16 (2) 8 
+ (3) 4 (4) 2 
+ 
+5. िो पात्र A और B को नविार कर ें नजिमें समाि गैस समाि 
+िाब, आयति और तापमाि पर भरी हुई है। पात्र A में गैस 
+को समतापीय रूप से उसक े मूि आयति के आधे में 
+संक ु नित नकया गया है, जबनक पात्र B में गैस को रुद्धोष्म 
+रूप से उसक े मूि आयति के आधे में संक ु नित नकया गया 
+है। गैस B के अंनतम िाब और गैस A के अंनतम िाब का 
+अिुपात क्या होगा  
+ [गैस के ललए 
+=p
+V
+C
+C ] 
+  (1) 
+12−  (2) 
+11
+2
+−
+
+  
+ (3) 
+2
+1
+1
+
+ −  (4) 
+2
+1
+1
+
+−  
+
+
+--- PAGE 3 ---
+  [3] 
+ 
+6. If a unit of length becomes 
+( )1 / 10 m  instead of 1 m 
+then what will be the numerical value of the volume 
+of a cube of 
+3500 m  ? 
+ (1) 
+432 10 m  (2) 
+535 10 m  
+ (3) 
+533 10 m  (4) 
+532 10 m  
+ 
+7. A simple pendulum oscillating in air has period T. 
+The bob of the pendulum is completely immersed in 
+a non-viscous liquid. The density of the liquid is 
+1
+16  
+th of the material of the bob. If the bob is inside the 
+liquid all the time, its period of oscillation in this 
+liquid is: 
+ (1) 
+12 10T  (2) 
+12 14T  
+ (3) 
+14 15T  (4) 
+14 14T  
+ 
+8. If 
+ˆn  is a unit vector in the direction of the vector 
+
+A
+, then: 
+ (1) 
+ˆ=
+
+An
+A  
+ (2) 
+ˆ=
+
+n A A  
+ (3) 
+ˆ=
+
+
+A
+n
+A  
+ (4) None of the above 
+ 
+9. A wire of radius r stretched without tension along a 
+straight line is lightly fixed at A and B. What is the 
+tension in the wire when it is pulled into the shape 
+ACB? (Assume Young's modulus of the material of 
+the wire to by Y and d << l) 
+ 
+ (1) 
+2
+222
+Yd
+rl  
+ (2) 
+22
+22
+Y r d
+l  
+ (3) 
+2
+222
+Yr
+ld  
+ (4) 
+22
+22
+Y r l
+d  
+6. अगर िम्बाई का मात्रक 1 m के बििे (1/10) m हो जाए 
+तो 500 m3 घि के आयति का संख्यात्मक माि क्या होगा? 
+ (1) 
+432 10 m  (2) 
+535 10 m  
+ (3) 
+533 10 m  (4) 
+532 10 m  
+ 
+7. वायु में िोिि कर रहे एक सरि िोिक का आवतश काि 
+T है। िोिक के गोिक को पूणशतः  एक अश्याि द्रव में 
+ड ु बोया जाता है। द्रव का घित्व गोिक के पिाथश का 
+1
+16  
+है। यनि गोिक हर समय द्रव के अंिर रहता है, तो इस द्रव 
+में इसका िोिि काि है:  
+ (1) 
+12 10T  (2) 
+12 14T  
+ (3) 
+14 15T  (4) 
+14 14T  
+ 
+8. अगर सनिश 
+
+A  के निशा में इकाई सनिश 
+ˆn  है तो 
+ (1) 
+ˆ=
+
+An
+A  
+ (2) 
+ˆ=
+
+n A A  
+ (3) 
+ˆ=
+
+
+A
+n
+A  
+ (4) इिमें से कोई िहीं 
+ 
+9. नत्रज्या r का एक तार तिाव के नबिा एक सीधी र े िा में 
+तानित है और इसे A और B पर हल्क े से खिर नकया गया 
+है। जब इसे ACB आक ृ नत में िी ंिा जाता है, तो तार में 
+तिाव नकतिा होता है? (माि िीनजए नक तार के पिाथश का 
+यंग गुणांक Y है और d << l है) 
+ 
+ (1) 
+2
+222
+Yd
+rl  
+ (2) 
+22
+22
+Y r d
+l  
+ (3) 
+2
+222
+Yr
+ld  
+ (4) 
+22
+22
+Y r l
+d  
+
+
+--- PAGE 4 ---
+  [4] 
+ 
+10. Two rigid boxes containing different ideal gases are 
+placed on a table. Box A contains one mole of 
+nitrogen at 
+0T , while box 
+B  contains one mole of 
+He at 
+07 / 3T . The boxes are then put into thermal 
+contact with each other, and heat flows between 
+them till the gases reach a common final temperature 
+fT
+. Ignore the heat capacity of boxes. Then 
+fT  in 
+terms of 
+0T  is 
+ (1) 
+0
+7
+3=fTT  (2) 
+0
+3
+2=fTT  
+ (3) 
+0
+5
+2=fTT  (4) 
+0
+3
+7=fTT  
+ 
+11. Taking the Bohr radius as 
+0 53=a pm , the radius of 
+++Li
+ion in its ground state, on the basis of Bohr's 
+model, will be about 
+ (1) 
+53pm  (2) 
+27 pm  
+ (3) 
+18 pm  (4) 
+13pm  
+ 
+12. In Young's double -slit experiment, let 
+A  and 
+B  be 
+the two slits. A thin film of thickness 
+t  and 
+refractive index 
+  is placed in front of 
+A . Let 
+=  
+fringe width. Then the central maxima will shift 
+ (1) 
+( )1−t  (2) toward 
+B  
+ (3) by 
+( )1 − t  (4) by 
+ t  
+ 
+13. A block of mass 
+m  and charge 
+q  is placed in 
+electric field 
+0
+0
+34=− 
+
+yEE h  where 
+y  is a vertical 
+distance from the starting point(as shown in figure). 
+Then: 
+ 
+  If mass is released from rest then it will oscillate 
+ (1)  with Time period 
+0
+0
+2 3= mhT qE  
+ (2) With time period 
+0
+00
+2 34
+=  +
+
+mh mT qE qE  
+ (3)  With time period  
+  
+0
+0034
+= + −
+
+mh mTg qE qE  
+ (4) None of these 
+10. अिग-अिग आिशश गैसों वािे िो दृढ़ बक्से एक मेज पर 
+रिे गए हैं। बक्सा A में T0 पर िाइट् र ोजि का एक मोि है, 
+जबनक बक्सा B में 
+0
+7
+3T  पर He का एक मोि है। नफर 
+बक्सों को एक ि ू सर े के साथ ऊष्मीय संपक श में रिा जाता 
+है, और उिक े बीि तब तक ऊष्मा का प्रवाह होता है जब 
+तक नक गैसें एक उभयनिष्ठ अंनतम तापमाि Tf तक िहीं 
+पहुंि जाती ं। बक्सों की ऊष्मा धाररता को िगण्य मािें। तब 
+T0 के पिों में Tf है: 
+ (1) 
+0
+7
+3=fTT  (2) 
+0
+3
+2=fTT  
+ (3) 
+0
+5
+2=fTT  (4) 
+0
+3
+7=fTT  
+ 
+11. बोर नत्रज्या को 
+0 53=a pm  िेते हुए, बोर मॉडि के 
+आधार पर 
+++Li  आयि की, इसक े निम्नतम अविा में, 
+नत्रज्या िगभग होगी 
+ (1) 
+53pm  (2) 
+27 pm  
+ (3) 
+18 pm  (4) 
+13pm  
+ 
+12. यंग के नि-निरी प्रयोग में, A और B िो लिर्रणयााँ हैं। मोट्ाई 
+t और अपवतशिांक μ की एक पतिी नफल्म A के सामिे 
+रिी जाती है। माि िीनजए β = नर ं ज िौडाई है। तब क ें द्रीय 
+उखिष्ठ नविानपत होगा 
+ (1) 
+( )1−t  (2) B की ओर 
+ (3) 
+( )1 − t  से (4) 
+ t  से 
+ 
+13. m द्रव्यमाि तथा q आवेश का एक गुट्का नवि ् युत क्षेत्र
+0
+0
+34=− 
+
+yEE h
+ में रिा है, जहााँ y प्रार ं नभक नबंिु से 
+ऊर्ध्ाशधर ि ू री है (जैसा नक नित्र में िशाशया गया है)। तब: 
+ 
+ यनि इस गुट्क े को नवरामाविा से छोडा जाए तो यह िोिि 
+कर े गा: 
+ (1) आवतशकाि 
+0
+0
+2 3= mhT qE  के साथ 
+ (2) आवतशकाि 
+0
+00
+2 34
+=  +
+
+mh mT qE qE  के साथ 
+ (3) आवतशकाि 
+0
+0034
+= + −
+
+mh mTg qE qE  के 
+ साथ 
+ (4) इिमें से कोई िहीं  
+
+
+--- PAGE 5 ---
+  [5] 
+ 
+14. A charged particle moves through a magnetic field 
+perpendicular to its direction. Then: 
+ (1) both momentum and kinetic energy of the 
+particle are not constant 
+ (2) both momentum and kinetic energy of the 
+particle are constant 
+ (3) kinetic energy changes but the momentum is 
+constant 
+ (4) the momentum changes but the kinetic energy 
+is constant 
+ 
+15. A block of mass m is at rest on another block of the 
+same mass as shown in the figure. Lower block is 
+attached to a spring, the maximum amplitude of 
+motion so that both the blocks will remain in contact 
+is (g = 10 m/s2) 
+ 
+ (1) 1 m (2) 2 m 
+ (3) 10 m (4) 20 m 
+ 
+16. An LCR circuit contains resistance of 
+110Ω  and a 
+supply of 220 V at 300 rad/s angular frequency. If 
+only capacitance is removed from the circuit, current 
+lags behind the voltage by 
+45
+  . If on the other hand, 
+only inductor is removed the current leads by 
+45
+   
+with the applied voltage. The rms current flowing in 
+the circuit will be: 
+ (1) 1 A (2) 2 A 
+ (3) 1.5 A (4) 2.5 A 
+ 
+17. 4 charges are placed each at a distance ' a' from 
+origin. The dipole moment of configuration is: 
+ 
+ (1) 
+2 ˆqaj  (2) 
+3 ˆqaj  
+ (3) 
+ˆ2 ˆ+aq i j  (4) None of these 
+14. एक आवेनशत कण अपिी निशा के िंबवत िुंबकीय क्षेत्र 
+से होकर गुजरता है। तब: 
+ (1) कण का संवेग और गनतज ऊजाश िोिों नियत िहीं 
+रहते हैं 
+ (2) कण का संवेग और गनतज ऊजाश िोिों नियत रहते हैं 
+ (3) गनतज ऊजाश बििती है िेनकि संवेग नियत रहता है 
+ (4) संवेग बििता है िेनकि गनतज ऊजाश नियत रहती है 
+ 
+15. m द्रव्यमाि का एक गुट्का नित्र में नििाए अिुसार समाि 
+द्रव्यमाि के ि ू सर े गुट्क े पर नवराम में है। निििा गुट्का 
+एक कमािी से जुडा है, गनत का अनधकतम आयाम तानक 
+िोिों गुट्क े संपक श में रहें, है (g = 10 m/s2) 
+ 
+ (1) 1 m (2) 2 m 
+ (3) 10 m (4) 20 m 
+ 
+16. एक LCR पररपथ में 110Ω का प्रनतरोध और 300 rad/s 
+की कोणीय आवृनत्त पर 220 V की आपूनतश है। यनि पररपथ 
+से क े वि धाररता हट्ा िी जाती है, तो धारा, वोल्टेज से 45° 
+पश्चगामी हो जाती है। यनि ि ू सरी ओर, क े वि प्रेरक को हट्ा 
+निया जाता है तो धारा, अिुप्रयुक्त वोल्टेज से 45° अग्रगामी 
+हो जाती है। पररपथ में प्रवानहत होिे वािी rms धारा 
+______ होगी। 
+ (1) 1 A (2) 2 A 
+ (3) 1.5 A (4) 2.5 A 
+ 
+17. चार आवेश, प्रत्येक मूिनबंिु से 'a' ि ू री पर रिे गए हैं। इस 
+नवन्यास का निध्रुव आघूणश है: 
+ 
+ (1) 
+2 ˆqaj  (2) 
+3 ˆqaj  
+ (3) 
+ˆ2 ˆ+aq i j  (4) इिमें से कोई िहीं  
+
+
+--- PAGE 6 ---
+  [6] 
+ 
+18. A 250 -turn rectangular coil of length 2.1 cm and 
+width 1.25 cm carries a current of 
+85A  and 
+subjected to a magnetic field of strength 
+0.85T . 
+Work done for rotating the coil by 
+180
+  against the 
+torque is 
+ (1)  
+4.55J  
+ (2)  
+2.3J  
+ (3) 
+1.15J  
+ (4) 
+9.1J  
+ 
+19. A metal surface in an evacuated tube is illuminated 
+with monochromatic light causing the emission of 
+photoelectrons which are collected at an adjacent 
+electrode. For a given intensity of light, the way in 
+which the photocurrent 
+I  depends in the potential 
+difference 
+V  between the electrodes is shown by 
+approximate graph in figure.If the experiment were 
+repeated with light of twice the intensity but the same 
+wavelength, which of the graphs below would best 
+represent the new relation between 
+I  and 
+?V  (In 
+these graphs, the result of the original experiment is 
+indicated by a broken line.) 
+ 
+ (1)  
+ (2)  
+ (3)  
+ (4)  
+ 
+18. 2.1 cm िंबाई तथा 1.25 cm िौडाई वािी एक 250-फ े रों 
+की आयताकार क ुं डिी 85µA की धारा वहि करती है तथा 
+इसे 0.85 T प्रबिता के िुंबकीय क्षेत्र में रिा गया है। बि 
+आघूणश के नवरुद्ध क ुं डिी को 180° से घुमािे में नकया गया 
+कायश है: 
+ (1) 4.55µJ 
+ (2) 2.3µJ 
+ (3) 1.15µJ 
+ (4) 9.1µJ  
+ 
+19. एक िािी की गई ििी में एक धातु की सतह को एकवणी 
+प्रकाश से प्रकानशत नकया जाता है नजससे फोट्ोइिेक्ट् र ॉि 
+उत्सनजशत होते हैं नजन्हें एक आसन्न इिेक्ट् र ोड पर एकत्र 
+नकया जाता है। प्रकाश की िी गई तीव्रता के निए, नजस 
+तरह से प्रकाशनवि ् युत धारा I इिेक्ट् र ोडों के बीि 
+लवभवान्तर V पर निभशर करती है, उसे नित्र में अिुमानित 
+ग्राफ िारा नििाया गया है। यनि प्रयोग को िोगुिी तीव्रता 
+िेनकि समाि तर ं गिैर्ध्श वािे प्रकाश के साथ िोहराया 
+जाता है, तो िीिे निए गए ग्राफों में से कौि-सा I और V के 
+बीि िए संबंध को सबसे अच्छा िशाशता है? (इि ग्राफों में, 
+मूि प्रयोग का पररणाम एक ट् ू ट्ी हुई र े िा िारा इंनगत नकया 
+गया है।) 
+ 
+ (1)  
+ (2)  
+ (3)  
+ (4)  
+ 
+
+
+--- PAGE 7 ---
+  [7] 
+ 
+20. Given below are two statements: one is labelled as 
+Assertion A and the other is labelled as Reason R. 
+ Assertion A: The nuclear density of 
+nuclides 
+10 6 56 20
+5 3 26 10B, Li, Fe, Ne  and 
+209
+83 Bi  can be 
+arranged as 
+( )    N N N N N
+Bi Fe Ne B Li . 
+ Reason R: The radius R of nucleus is related to its 
+mass number A as 
+1/3
+0=R R A , where 
+0R  is a 
+constant. 
+ In the light of the above statement, choose the correct 
+answer from the options given below: 
+ (1) Both A and R are true and R is the correct 
+explanation of A 
+ (2) A is false but R is true 
+ (3) A is true but R is false 
+ (4) Both A and R are true but R is not the correct 
+explanation of R 
+ 
+Integer Type Questions 
+21. A particle is projected from A on plane AB, so that 
+AB = 
+22 tan
+3
+u
+g  in the figure as shown. If u is the 
+velocity of projection, the value of angle θ in degrees 
+is ________. 
+ 
+ 
+22. Figure shows a smooth cylindrical pulley of radius 
+R
+ with centre at origin of co -ordinates. An ideal 
+thread is thrown over it on the two parts of ideal 
+thread two identical masses are tied initially at rest 
+with co-ordinates (
+R , 0) and (
+,−−RR ) respectively. 
+If mass at 
+x -axis is given a slight upward jerk, it 
+leaves contact with pulley at (
+cos , sinRR ). Then 
+find 
+/ sin . 
+ 
+20. िीिे िो कथि निए गए हैं: एक को अनभकथि A और 
+ि ू सर े को कारण R के रूप में अंनकत नकया गया है। 
+ अभिकथन A: न्यूक्लाइड 
+10 6 56 20
+5 3 26 10, , ,B Li Fe Ne  और 
+209
+83 Bi
+ के िानभकीय घित्व को 
+( )    N N N N N
+Bi Fe Ne B Li
+ के रूप में व्यवखित 
+नकया जा सकता है। 
+ कारण R: िानभक की नत्रज्या R उसकी द्रव्यमाि संख्या A 
+से 
+1/3
+0=R R A  के रूप में संबंनधत है, जहााँ R0 एक 
+खिरांक है। 
+ उपरोक्त कथिों के आधार पर, िीिे निए गए नवकल्ों में 
+से सही उत्तर िुिें: 
+ (1) A और R िोिों सत्य हैं और R, A का सही 
+स्पष्टीकरण है 
+ (2) A असत्य है िेनकि R सत्य है 
+ (3) A सत्य है िेनकि R असत्य है 
+ (4) A और R िोिों सत्य हैं िेनकि R, A का सही 
+स्पष्टीकरण िहीं है 
+ 
+iw.kkaZd çdkj ds ç'u 
+21. एक कण को A से समति AB पर इस प्रकार प्रक्षेनपत नकया 
+जाता है नक AB = 
+22 tan
+3
+u
+g  नित्र में िशाशया गया है। यनि 
+u प्रक्षेपण वेग है, तो कोण θ का माि  ________ है। 
+ 
+ 
+22. नित्र में नििेशांकों के मूि नबंिु पर क ें द्र वािी नत्रज्या 
+R  
+वािी एक निकिी बेििाकार नघरिी नििाई गई है। इस पर 
+एक आिशश धागा डािा गया है। आिशश धागे के िो भागों 
+पर िो समाि द्रव्यमाि क्रमशः  नििेशांक (
+R , 0) और (
+,−−RR
+) के साथ आर ं भ में नवराम अविा में बंधे हैं। यनि 
+x
+-अक्ष पर खित द्रव्यमाि को थोडा ऊपर की ओर िट्का 
+निया जाए, तो वह (
+cos , sinRR ) पर खित नघरिी से 
+संपक श िो िेता है। तो 
+/ sin  ज्ञात कीनजए। 
+ 
+
+
+--- PAGE 8 ---
+  [8] 
+ 
+23. A force of 40 N is responsible for the motion of a 
+body governed by the equation 
+222=+s t t  where 
+s
+ is in meters and 
+t  in sec. What is the momentum 
+of the body at 
+2sec=t  ? 
+ [Hint: Find acc. then 
+/=m F a  and 
+]=p mv  
+ 
+24. The angle between two flat mirrors is changed by 
+rotating one of the mirrors around the edge of 
+another with a constant angular velocity 
+1.5deg / sec=
+. Source of light 
+S  is located as 
+shown in Figure, the distance h = 10 cm. At the initial 
+moment mirrors were in the same plane 
+( )180=
+  . 
+ 
+ After what minimum time (in second) 3 images will 
+be formed by the mirrors. 
+ 
+25. The circular loops of radii 
+0.05  and 0.09 m, 
+respectively, are put such that their axes coincide and 
+their centers are 0.12 m apart. Charge of 
+610−  
+coulomb is spread uniformly on each loop. Find the 
+potential difference (in kV) between the centers of 
+loops. 
+23. एक 40 N का बि एक नपंड की गनत के निए उत्तरिायी है 
+जो समीकरण 
+222=+s t t  िारा नियंनत्रत होती है, जहााँ 
+s  
+मीट्र में तथा 
+t  सेक ं ड में है। 
+2sec=t  पर नपंड का संवेग 
+क्या है?  
+ [संक े त त्वरर् ज्ञात कीलजए, तब 
+= Fm a  और P = mv] 
+ 
+24. िो समति िपशणों के बीि का कोण एक िपशण को ि ू सर े के 
+नकिार े के पररतः  एक नियत कोणीय वेग 
+  = 1.5 नडग्री 
+प्रनत सेक ं ड से घुमाकर बििा जाता है। प्रकाश स्रोत S को 
+नित्र में नििाए अिुसार रिा गया है, ि ू री h = 10 cm है। 
+प्रार ं नभक क्षण में िपशण एक ही ति में थे 
+( )180=
+  । 
+ 
+ कम से कम नकतिे समय (सेक ं ड में) के बाि िपशणों िारा 
+3 प्रनतनबंब बिेंगे? 
+ 
+25. क्रमशः  
+0.05  तथा 0.09 m नत्रज्याओं के वृत्ताकार पाशों को 
+इस प्रकार रिा गया है नक उिक े अक्ष संपाती हैं तथा उिक े 
+क ें द्र 0.12 m की ि ू री पर हैं। प्रत्येक पाश पर 
+610−  क ू िॉम 
+का आवेश एकसमाि रूप से फ ै िा हुआ है। पाशों के क ें द्रों 
+के बीि नवभवांतर (kV में) ज्ञात कीनजए 
+SECTION-II (CHEMISTRY)
+ 
+Single Correct Type Questions 
+26. 
+40.05M CuSO  when treated with 
+2 2 70.01M K Cr O  
+gives green colour solution of 
+2 2 7Cu Cr O . The two 
+solutions are separated as shown below: 
+ 
+ Due to osmosis 
+ (1) Green colour formation observed on side X. 
+ (2) Molarity of 
+2 2 7K Cr O  solution is lowered. 
+ (3) Green colour formation observed on side Y. 
+ (4) Molarity of 
+4CuSO  solution is lowered. 
+ 
+27. Which of the following group of molecules have 
+12 2
+ bond order? 
+ (1) 
+22
+22N ,O ,CO−−  (2) 
+22N ,O , NO++  
+ (3) 
+2
+22C ,CN,O−  (4) 
+2
+2CN , NO ,O− + −  
+,d lgh fodYi izdkj ds iz'u 
+26. 
+40.05M CuSO  को 
+2 2 70.01M K Cr O  के साथ 
+उपिाररत करिे पर 
+2 2 7Cu Cr O  का हरे र ं ग का नवियि 
+प्राप्त होता है। िोिों नवियिों को िीिे नििाए अिुसार 
+अिग नकया गया है: 
+ 
+ परासरण के कारण: 
+ (1)  X की ओर हरा र ं ग बििा िेिा गया। 
+ (2) 
+2 2 7K Cr O  नवियि की मोिरता कम हो जाती है। 
+ (3) Y की ओर हरा र ं ग बििा िेिा गया। 
+ (4) 
+4CuSO  नवियि की मोिरता कम हो जाती है। 
+ 
+27. निम्न में से अणुओं का कौिसा समूह का बंध क्रम 
+12 2  है? 
+ (1) 
+22
+22N ,O ,CO−−  (2) 
+22N ,O , NO++  
+ (3) 
+2
+22C ,CN,O−  (4) 
+2
+2CN , NO ,O− + −  
+
+
+--- PAGE 9 ---
+  [9] 
+ 
+28. Write the correct IUPAC name of the following 
+bond line formula 
+ 
+ (1) 4-Methyl-3-(1-methylpropyl)pent-3-enal 
+ (2) 3-Isopropenyl-4-methylhexanal 
+ (3) 3,5-Dimethylhex-4-enal 
+ (4) None of these 
+ 
+29. Choose the correct statement for the work done in 
+the expansion and heat absorbed or released when 5 
+litres of an ideal gas at 10 atmospheric pressure 
+isothermally expands into vacuum until volume is 
+15 litres: 
+ (1) Both the heat and work done will be greater 
+than zero. 
+ (2) Heat absorbed will be less than zero and work 
+done will be positive. 
+ (3) Work done will be zero and heat will also be 
+zero. 
+ (4) Work done will be greater than zero and heat 
+will remain zero. 
+ 
+30. Which of the following are paramagnetic? 
+ A. 
+ 
+2
+4NiCl −  
+ B.  
+4Ni(CO)  
+ C. 
+( )
+2
+2 6Ni H O
++
+  
+ D.  
+
+2
+4[Ni(CN) −  
+ E. 
+( )3 4Ni PPh  
+ Choose the correct answer from the options given 
+below 
+ (1) A and D only 
+ (2) A, D and E only 
+ (3) A and C only 
+ (4) B and E only 
+ 
+31. 
+2
+Na
+Et O X⎯⎯⎯ →  
+ The major product 
+( )X  will be: 
+ (1)  
+32CH CH CH CH CH−=−=  
+ (2)  
+ (3)  
+222CH CH CH CH CH= − − =  
+ (4)  
+28. निम्ननिखित आबन्ध र े िा सूत्र का सही IUPAC िाम 
+निखिए 
+ 
+ (1) 4-मेनथि-3-(1-मेलिलप्रोलपल)पेंट्-3-इनेल 
+ (2) 3-आइसोप्रोपेनिि-4-मेलिलहेक्सेनैल 
+ (3) 3,5-डाइमेलिलहेक्स-4-इनेल 
+ (4) इिमें से कोई िहीं 
+ 
+29. जब 10 वायुमंडिीय िाब पर एक आिशश गैस के 5 िीट्र 
+का समतापी रूप से निवाशत में प्रसार होता है, जब तक नक 
+आयति 15 िीट्र िहीं हो जाता, तो प्रसार में नकए गए 
+कायश और अवशोनित या मुक्त ऊष्मा के निए सही कथि 
+का ियि कीनजए: 
+ (1) ऊष्मा तथा नकया गया कायश िोिों शून्य से अनधक 
+होंगे। 
+ (2) अवशोनित ऊष्मा शून्य से कम होगी तथा नकया गया 
+कायश धिात्मक होगा। 
+ (3) नकया गया कायश शून्य होगा तथा ऊष्मा भी शून्य 
+होगी। 
+ (4) नकया गया कायश शून्य से अनधक होगा तथा ऊष्मा 
+शून्य रहेगी। 
+ 
+30. निम्ननिखित में से कौि-से अिुिुम्बकीय हैं? 
+ A. 
+ 
+2
+4NiCl −  
+ B.  
+4Ni(CO)  
+ C. 
+( )
+2
+2 6Ni H O
++
+  
+ D.  
+
+2
+4[Ni(CN) −  
+ E. 
+( )3 4Ni PPh  
+ िीिे निए गए नवकल्ों में से सही उत्तर िुनिए 
+ (1) क े वि A और D (2) क े वि A, D और E 
+ (3) क े वि A और C (4) क े वि B और E 
+ 
+31. 
+2
+Na
+Et O X⎯⎯⎯ →  
+ मुख्य उत्पाि (X) होगा: 
+ (1)  
+32CH CH CH CH CH−=−=  
+ (2)  
+ (3)  
+222CH CH CH CH CH= − − =  
+ (4)  
+
+
+--- PAGE 10 ---
+  [10] 
+ 
+32. The given diagram indicates the energy levels of a 
+certain atom. When the system moves from 
+2E  
+level to 
+E  level, a photon of wavelength 
+  is 
+emitted. The wavelength of the photon emitted 
+during its transition from 
+4E / 3  level to 
+E  level is 
+ 
+ (1) 
+/3  (2) 
+3 / 4  
+ (3) 
+4 / 3  (4) 
+3  
+ 
+33. Given below are two statement: one is labelled as 
+Assertion A and the other is labelled as Reason R. 
+ Assertion A:  The first ionisation enthalpy of 
+Galium is higher than Aluminium. 
+ Reason R: Due to poor shielding effect of d-orbital 
+in Galium ionisation enthalpy increases. 
+ In the light of the above statements, choose the 
+correct answer from the options given below. 
+ (1) A is true but R is false. 
+ (2) A is false but R is true. 
+ (3) Both A and R are true and R is the correct 
+ explanation of A. 
+ (4) Both A and R are true but R is NOT the 
+ correct explanation of A. 
+ 
+34. Arrange the following alkanols A, B and C in order 
+of their reactivity towards acid catalysed 
+dehydration: 
+  
+ (1) A > B > C (2) B > A > C 
+ (3) B > C > A (4) C > B > A 
+ 
+35. On the basis of Le-chatelier principle in equilibrium 
+ A. Addition of inert gas, at constant volume do not 
+disturb equilibrium 
+ B. Addition of inert gas, at constant pressure do not 
+disturb equilibrium 
+ C. Addition of catalyst do not disturb the 
+equilibrium 
+ Choose the most appropriate  answer from the 
+options given below. 
+ (1) A, B and C (2) A and B only 
+ (3) A and C only (4) B and C only 
+32. निया गया आर े ि एक निनश्चत परमाणु के ऊजाश स्तरों को 
+िशाशता है। जब निकाय 
+2E  स्तर से 
+E  स्तर पर जाता है, 
+तो तर ं गिैर्ध्श 
+  का एक फोट्ॉि उत्सनजशत होता है। 
+4E / 3
+ स्तर से 
+E  स्तर तक संक्रमण के िौराि उत्सनजशत 
+फोट्ॉि की तर ं गिैर्ध्श है : 
+ 
+ (1) 
+/3  (2) 
+3 / 4  
+ (3) 
+4 / 3  (4) 
+3  
+ 
+33. िीिे िो कथि निए गए हैं: एक को अनभकथि A और 
+ि ू सर े को कारण R के रूप में अंनकत नकया गया है। 
+ अभिकथन A: गैनियम की प्रथम आयिि एन्थैल्ी 
+ऐिुनमनियम से अनधक होती है। 
+ कारण R: गैनियम में d-कक्षक के िुबशि परररक्षण प्रभाव 
+के कारण आयिि एन्थैल्ी बढ़ जाती है। 
+ उपरोक्त कथिों के संबन्ध में, िीिे निए गए नवकल्ों में से 
+सही उत्तर िुनिए। 
+ (1) A सत्य है िेनकि R असत्य है। 
+ (2) A असत्य है िेनकि R सत्य है। 
+ (3) A और R िोिों सत्य हैं और R, A की सही व्याख्या 
+ है। 
+ (4) A और R िोिों सत्य हैं िेनकि R, A की सही व्याख्या 
+िहीं है। 
+ 
+34. निम्ननिखित ऐल्क े िॉिों A, B तथा C को अम्ल उत्प्रेररत 
+निजशिीकरण के प्रनत उिकी अनभनक्रयाशीिता के क्रम में 
+व्यवखित कीनजए: 
+  
+ (1) A > B > C (2) B > A > C 
+ (3) B > C > A (4) C > B > A 
+ 
+35. साम्याविा में िे-शातेनिए के नसद्धांत के आधार पर 
+ A. नियत आयति पर अनक्रय गैस नमिािे पर 
+साम्याविा नवक्षुब्ध िहीं होती है 
+ B. नियत िाब पर अनक्रय गैस नमिािे पर साम्याविा 
+नवक्षुब्ध िहीं होती है 
+ C. उत्प्रेरक नमिािे पर साम्याविा नवक्षुब्ध िहीं होती है 
+ िीिे निए गए नवकल्ों में से सबसे उपयुक्त उत्तर िुनिए। 
+ (1) A, B तथा C (2) क े वि A तथा B 
+ (3) क े वि A तथा C (4) क े वि B तथा C 
+
+
+--- PAGE 11 ---
+  [11] 
+ 
+36. Identify the incorrect statements about group 15 
+elements: 
+ (A) Dinitrogen is a diatomic gas which acts like an 
+inert gas at room temperature. 
+ (B) The common oxidation states of these elements 
+are 
+3, 3−+  and +5. 
+ (C) Nitrogen has unique ability to form 
+pp−   
+multiple bonds. 
+ (D) The stability of +5 oxidation states increases 
+down the group. 
+ (E) Nitrogen shows a maximum covalency of 6. 
+ Choose the correct answer from the options given 
+below :  
+ (1) (A), (C), (E) only 
+ (2) (D) and (E) only 
+ (3) (A), (B), (C) only 
+ (4) (B), (D), (E) only 
+ 
+37. Match the List-I with List-II. 
+  
+ Choose the correct answer from the options given 
+below; 
+ (1)  A-III, B-II, C-IV, D-I 
+ (2)  A-II, B-III, C-IV, D-I 
+ (3) A-III, B-I, C-IV, D-II 
+ (4)  A-IV, B-I, C-II, D-III 
+ 
+38. A graph of molar conductivity of three electrolytes 
+( NaCl,HCl
+ and 
+)4NH OH  is plotted against 
+C  
+ 
+ Which of the following options is correct? 
+ (1) 
+41 NaCl, 2 HCl,    3 NH OH− − −  
+ (2) 
+41 NH OH,    2 NaCl,    3 HCl− − −  
+ (3) 
+41 HCl,    2 NaCl,    3 NH OH− − −  
+ (4) 
+41 NH OH,    2 HCl ,  3 NaCl− − −  
+ 
+36. समूह 15 के तत्वों के बार े में गित कथिों को पहिानिए: 
+ (A) डाइिाइट् र ोजि एक निपरमाणुक गैस है जो कमर े के 
+तापमाि पर एक अनक्रय गैस की तरह व्यवहार 
+करती है। 
+ (B) इि तत्वों की सामान्य ऑक्सीकरण अविाए ाँ −3, +3 
+और +5 हैं। 
+ (C) िाइट् र ोजि में 
+pp−   बहु बंध बिािे की अनितीय 
+क्षमता होती है। 
+ (D) +5 ऑक्सीकरण अविा का िानयत्व समूह में िीिे 
+जािे पर बढ़ता है। 
+ (E) िाइट् र ोजि अनधकतम सहसंयोजकता 6 प्रिनशशत 
+करता है। 
+ िीिे निए गए नवकल्ों में से सही उत्तर िुनिए: 
+ (1) क े वि (A), (C), (E) 
+ (2) क े वि (D) और (E) 
+ (3) क े वि (A), (B), (C) 
+ (4) क े वि (B), (D), (E) 
+ 
+37. सूिी-I को सूिी-II से सुमेनित कर ें ।  
+सूची-I 
+(भिटाभिन) 
+सूची-II 
+(किी से होने िाला रोग) 
+A.  िायमीन I.  ऐंठि 
+B.  ऐस्कॉनबशक अम्ल II.  स्कवी 
+C.  राइबोफ्लेनवि III.  बेरी-बेरी  
+D.  लपर्रडॉक्सक्सन IV.  कीिोनसस 
+ िीिे निए गए नवकल्ों में से सही उत्तर िुिें; 
+ (1) A-III, B-II, C-IV, D-I 
+ (2) A-II, B-III, C-IV, D-I 
+ (3) A-III, B-I, C-IV, D-II 
+ (4) A-IV, B-I, C-II, D-III 
+ 
+38. तीि नवि ् युत्-अपघट्ों (NaCl, HCl तथा NH4OH) की 
+मोिर िािकता का एक ग्राफ 
+C  के नवरुद्ध आिेखित 
+नकया गया है: 
+ 
+ निम्ननिखित में से कौि-सा नवकल् सही है? 
+ (1) 
+41 NaCl, 2 HCl,    3 NH OH− − −  
+ (2) 
+41 NH OH,    2 NaCl,    3 HCl− − −  
+ (3) 
+41 HCl,    2 NaCl,    3 NH OH− − −  
+ (4) 
+41 NH OH,    2 HCl ,  3 NaCl− − −  
+ 
+
+
+--- PAGE 12 ---
+  [12] 
+ 
+39. An aqueous solution of a substance gives a white 
+precipitate on treatment with dil. HCl which 
+dissolves on heating and when H 2S is passed 
+through the hot acidic solution, black precipitate is 
+obtained. The substance is 
+ (1) 
+2
+2Hg + salt 
+ (2) Ag+ salt 
+ (3) Pb2+ salt 
+ (4) Cu2+ salt 
+ 
+40. The test performed on compound X and their 
+inference are 
+                      Test                       Inference 
+ (a) 2, 4-DNP test Coloured precipitate 
+ (b) Iodoform test Yellow precipitate 
+ (c) Azo-dye test No-dye formation 
+ The compound X is 
+ (1)  
+ (2)  
+ (3)  
+ (4)  
+ 
+41. Methyl-t-butyl ether, 
+5 12C H O , is added to gasoline 
+to promote cleaner burning. How many moles of 
+oxygen gas, 
+2O  are required to burn 1.0 mol of this 
+compound completely to form carbon dioxide and 
+water? 
+ (1) 4.5 mol 
+ (2) 6.0 mol 
+ (3) 7.5 mol 
+ (4) 8.0 mol 
+ 
+ 
+39. एक पिाथश का जिीय नवियि तिु HCl के साथ उपिाररत 
+करिे पर एक श्वेत अवक्षेप िेता है जो गमश करिे पर घुि 
+जाता है तथा जब गमश अम्लीय नवियि से H2S प्रवानहत की 
+जाती है, तो कािा अवक्षेप प्राप्त होता है। पिाथश है: 
+ (1) Hg22+ िवण 
+ (2) Ag+ िवण 
+ (3) Pb2+ िवण 
+ (4) Cu2+ िवण 
+ 
+40. यौनगक X पर नकए गए परीक्षण और उिक े निष्किश हैं 
+                परीक्षण                         भनष्कर्ष 
+ (a) 2, 4-DNP परीक्षण  र ं गीि अवक्षेप 
+ (b) आयोडोफॉमश परीक्षण पीिा अवक्षेप 
+ (c) एजो-र ं जक परीक्षण  कोई र ं जक निमाशण िहीं 
+ यौनगक X है 
+ (1)  
+ (2)  
+ (3)  
+ (4)  
+ 
+41. मेनथि-t-ब्यूनट्ि ईथर, C₅H₁₂O, को स्वच्छ िहि को 
+बढ़ावा िेिे के निए गैसोिीि में नमिाया जाता है। इस 
+यौनगक के 1.0 मोि को काबशि डाइऑक्साइड तथा जि 
+बिािे के निए पूणश रूप से जिािे के निए नकतिे मोि 
+ऑक्सीजि गैस, O₂, की आवश्यकता होती है? 
+ (1) 4.5 मोि 
+ (2) 6.0 मोि 
+ (3) 7.5 मोि 
+ (4) 8.0 मोि 
+ 
+
+
+--- PAGE 13 ---
+  [13] 
+ 
+42. Match the List-I with  List-II. 
+List-I List-II 
+(A) 
+ 
+(I) Fittig 
+reaction 
+(B) 
+ 
+(II) Gatterman
+n Reaction 
+(C) 
+ 
+(III) Sandmeyer 
+Reaction 
+(D) 
+ 
+(IV
+) 
+Darzen 
+process 
+ Choose the correct answer from the options given 
+below: 
+ (1) A - II, B - I, C - III, D - IV  
+ (2) A - III, B - IV, C - II, D - I 
+ (3) A - II, B - IV, C - III, D - I 
+ (4) A - III, B - I, C - II, D - IV 
+ 
+43. Choose the correct statements for element 
+19
+9 M  
+ I. Formation of 
+M− is endothermic process. 
+ II. Its anion is isoelectronic with neon. 
+ III. It has smallest size in its period. 
+ IV. it has highest electron gain enthalpy in its 
+ group. 
+ (1) Both I and IV (2) II, III and IV 
+ (3) I, II and IV (4) Both II and III 
+ 
+44. Decomposition of N2O5 take place on heating. 
+ Which of the following statement is/are correct: 
+ (A)  It follow first order Kinetics 
+ (B) Integrated rate law expression is 
+       [R] = – kt + [R]0 
+ (C)  Half-life period do not depends upon initial 
+ concentration 
+ Choose the most appropriate  answer from the 
+options given below: 
+ (1) A and B only (2) A, B and C 
+ (3) A only (4) A and C only 
+ 
+45. Knowing that the chemistry of lanthanoids (Ln) is 
+dominated by their +3 oxidation state, which of the 
+following statements is incorrect?  
+ (1) Ln (III) compounds are generally colourless.  
+ (2) Ln (III) hydroxides are mainly basic in 
+character. 
+ (3) Because of the large size of the Ln (III) ions the 
+bonding in their compounds is predominently 
+ionic in character. 
+ (4) The ionic sizes of Ln (III) decreases in general 
+with increasing atomic number. 
+ 
+42. सूिी-I को सूिी-II से सुमेनित कीनजए। 
+सूिी-I सूिी-II 
+(A) 
+ 
+(I) नफनट्ग 
+अनभनक्रया 
+(B) 
+ 
+(II) गाट्रमाि 
+अनभनक्रया 
+(C) 
+ 
+(III) सैंडमायर 
+अनभनक्रया 
+(D) 
+ 
+(IV) डाजशि 
+प्रक्रम 
+ िीिे निए गए नवकल्ों में से सही उत्तर िुिें: 
+ (1) A - II, B - I, C - III, D - IV  
+ (2) A - III, B - IV, C - II, D - I 
+ (3) A - II, B - IV, C - III, D - I 
+ (4) A - III, B - I, C - II, D - IV 
+ 
+43. तत्व 
+19
+9 M  के निए सही कथि िुनिए: 
+ I. 
+M−  का बििा एक ऊष्माशोिी प्रनक्रया है। 
+ II. इसका ऋणायि निआि के साथ समइिेक्ट् र ॉनिक है। 
+ III. इसक े आवणत में इसका आकार सबसे छोट्ा है। 
+ IV. इसक े समूह में इसकी इिेक्ट् र ॉि िखब्ध एन्थैल्ी 
+उितम है। 
+ (1) I और IV िोिों (2) II, III और IV 
+ (3) I, II और IV (4) II और III िोिों 
+ 
+44. N₂O₅ का अपघट्ि गमश करिे पर होता है। निम्ननिखित में 
+से कौि सा/से कथि सही है/हैं: 
+ (A) यह प्रथम कोनट् की बिगनतकी का अिुसरण करता 
+है। 
+ (B) समाकनित वेग नियम व्यंजक [R] = – kt + [R]0 है। 
+ (C) अधश-आयु काि प्रार ं नभक सांद्रता पर निभशर िहीं 
+करता है। 
+ िीिे निए गए नवकल्ों में से सबसे उपयुक्त उत्तर िुनिए: 
+ (1) क े वि A और B (2) A, B और C 
+ (3) क े वि A (4) क े वि A और C 
+ 
+45. यह जािते हुए नक िैन्थेिॉयड (Ln) का रसायि नवज्ञाि 
+उिकी +3 ऑक्सीकरण अविा िारा प्रमुि है, 
+निम्ननिखित में से कौिसा कथि गित है?  
+ (1) Ln (III) यौनगक सामान्यतः  र ं गहीि होते हैं।  
+ (2) Ln (III) हाइड र ॉक्साइड मुख्य रूप से क्षारीय प्रक ृ नत 
+के होते हैं। 
+ (3) Ln (III) आयिों के बडे आकार के कारण उिक े 
+यौनगकों में आबंधि मुख्य रूप से आयनिक प्रक ृ नत 
+का होता है। 
+ (4) Ln (III) के आयनिक आकार सामान्यतः  परमाणु 
+क्रमांक बढ़िे के साथ घट्ते हैं। 
+
+
+--- PAGE 14 ---
+  [14] 
+ 
+Integer Type Questions 
+46. Given below is the plot of the molar conductivity vs 
+ concentration 
+ for KCl in aqueous solution. 
+ 
+ If, for the higher concentration of KCl solution, the 
+resistance of the conductivity cell is 
+100 Ω , then 
+the resistance of the same cell with the dilute 
+solution is 'x' 
+Ω  
+ The value of x is _______ (Nearest integer) 
+  
+47. Among the complex ions,  
+ 
+( )2 2 2 2 2 2Co NH CH CH NH Cl
++
+ −−− ,  
+ 
+( ) ( )
+3
+2 2 4 2 2 24CrCl C O , Fe H O (OH) ,
+−+
+        
+( )
+( ) ( )
+34 2
+2
+2 2 2 2 3 2
+Fe NH (CN) ,
+Co NH CH CH NH NH Cl
+−
++
+
+ −−−
+ 
+and 
+( ) ( )
+2
+32 4Co NH H O Cl ,
++
+  the number of 
+complex ion(s) that show(s) cis-trans isomerism is- 
+ 
+48. The molar entropies of 2 mole of HI(g) and 1 mole 
+of H2(g) and 1 mol of I2(g) at 300 K are 206.5, 114.6 
+and 180.7 JK –1 mol–1 respectively. Using the ΔG° 
+given below, the enthalpy change of the reaction 
+given is found as 2.98 × 10x J. Find out value of x. 
+ 2HI (g) → H2 (g) + I2 (g); ΔG° = 271.8 kJ 
+ 
+49. How many structurally isomeric dienes with 
+molecular formula 
+58CH  are possible? 
+ 
+50. The total number of carboxylic acid groups in the 
+product P is 
+ 
+ 
+iw.kkaZd çdkj ds ç'u 
+46. िीिे जिीय नवियि में KCl के निए मोिर िािकता 
+बिाम 
+lkn a r z k  का आर े ि निया गया है। 
+ 
+ यनि, KCl नवियि की उि सांद्रता के निए, िािकता 
+सेि का प्रनतरोध 100 Ω है, तो तिु नवियि के साथ समाि 
+सेि का प्रनतरोध 'x' Ω है। x का माि ______ (निकट्तम 
+पूणाांक) है। 
+ 
+47. संक ु ि आयिों  
+ 
+( )2 2 2 2 2 2 ,Co NH CH CH NH Cl
++
+ −−−  
+ 
+( ) ( )
+3
+2 2 4 2 2 24CrCl C O , Fe H O (OH) ,
+−+
+        
+( )
+( ) ( )
+34 2
+2
+2 2 2 2 3 2
+Fe NH (CN) ,
+Co NH CH CH NH NH Cl
+−
++
+
+ −−−
+ 
+          और 
+( ) ( )
+2
+32 4Co NH H O Cl
++
+  में से, समपक्ष-नवपक्ष 
+समावयवता को िशाशिे वािे संक ु ि आयिों की संख्या है- 
+ 
+48. 300 K पर 2 मोि HI(g) और 1 मोि H2(g) और 1 मोि 
+I2(g) की मोिर एन्ट् र ॉनपयााँ क्रमशः  206.5, 114.6 और 
+180.7 JK –1 mol–1 हैं। िीिे निए गए ΔG° का उपयोग 
+करक े, िी गई अनभनक्रया का एन्थैल्ी पररवतशि  2.98 × 
+10x J पाया जाता है। x का माि ज्ञात कीनजए। 
+ 2HI (g)→ H2 (g) + I2 (g); ΔG° = 271.8 kJ 
+ 
+49. अणु सूत्र 
+58CH  वािे नकतिे संरििात्मक समावयनवक 
+डाइईि संभव हैं? 
+ 
+50. उत्पाद P में काबोक्सक्सललक अम्ल समूहों की क ु ल संख्या 
+है 
+ 
+  
+ 
+  
+
+
+--- PAGE 15 ---
+  [15] 
+ 
+SECTION-III (MATHEMATICS)
+ 
+Single Correct Type Questions 
+51. The function 
+ 
+( ) 4 3 23cos 10cos 6cos 3= + + −f x x x x ,
+( )0 x  
+is 
+ (1) Increasing in 
+2,23
+
+  
+ (2) Increasing in 
+20, ,23
+           
+ (3) Decreasing in 
+2,23
+
+  
+ (4) All of the above 
+ 
+52. For ten observations  
+1 2 3 10, , , .., x x x x  mean is 5.5, 
+10
+2
+1
+377
+=
+= i
+i
+x
+, in which observations 4 and 5 are 
+wrongly included. Replacing these wrong 
+observations 4 and 5 by correct observations 6 and 8, 
+then correct variance is 
+ (1) 6.7 (2) 8.7 
+ (3) 7.5 (4) 7.6 
+ 
+53. Let 
+:f R R→  be a twice differentiable function 
+such that 
+( )21f = . If 
+( ) ( )F x xf x=  for all 
+,xR
+( )
+2 '
+0 6xF x dx =
+ and 
+( )
+2 2 ''
+0 40x F x dx = , then 
+( ) ( )
+2
+02F F x dx +
+ is equal to : 
+ (1) 13 (2) 9 
+ (3) 11 (4) 15 
+ 
+54. Let 
+13, 2
+
+
+P  lies on ellipse 
+22
+22 1+=xy
+ab , also 
+product of focal distance of point P is 
+7
+4  there are 
+two ellipse satisfying given conditions then product 
+of eccentricities is 
+ (1) 
+1
+2  (2) 
+1
+2  
+ (3) 
+3
+2  (4) 
+3
+4  
+ 
+55. The number of five digit numbers, greater than 
+40000 and divisible by 5, which can be formed using 
+the digits 0, 1, 3, 5, 7 and 9 without repetition, is 
+equal to 
+ (1) 120 (2) 132 
+ (3) 72 (4) 96 
+,d lgh fodYi izdkj ds iz'u 
+51. फिि 
+( ) 4 3 23cos 10cos 6cos 3f x x x x= + + − ,  
+ 
+( )0 x   है: 
+ (1) 
+2,23
+
+  में वधशमाि  
+ (2) 
+20, ,23
+           में वधशमाि  
+ (3) 
+2,23
+
+  में ह्रासमाि  
+ (4) उपयुशक्त सभी  
+ 
+52. िस प्रेक्षणों 
+1 2 3 10, , , ..,x x x x   के निए मार्ध् 5.5 है, 
+10
+2
+1
+377i
+i
+x
+=
+=
+, नजसमें प्रेक्षण 4 और 5 गित तरीक े से 
+शानमि हैं। इि गित प्रेक्षणों 4 और 5 को सही प्रेक्षणों 6 
+और 8 से बिििे पर, सही प्रसरण है: 
+ (1) 6.7 (2) 8.7 
+ (3) 7.5 (4) 7.6 
+ 
+53. मािा 
+:f R R→  एक नि-अवकििीय फिि इस प्रकार 
+है नक 
+( )21f =  है। यनि सभी 
+xR  के निए 
+( ) ( )F x xf x=
+ है, 
+( )
+2 '
+0 6xF x dx =  और 
+( )
+2 2
+0 40x F x dx =
+ है, तब 
+( ) ( )
+2
+02F F x dx +  
+बराबर है : 
+ (1) 13 (2) 9 
+ (3) 11 (4) 15 
+ 
+54. माि िीनजए नक 
+13, 2P
+ , िीघशवृत्त 
+22
+22 1xy
+ab
++=  पर 
+खित है, नबंिु P की िाभीय ि ू ररयों का गुणिफि 
+7
+4  है, लदए 
+गए प्रलतबन्धों को पूरा करिे वािे िो िीघशवृत्त हैं, तो 
+उत्क ें द्रताओं का गुणिफि है: 
+ (1) 
+1
+2  (2) 
+1
+2  
+ (3) 
+3
+2  (4) 
+3
+4  
+ 
+55. 40000 से बडी और 5 से नवभाज्य पााँि अंकीय संख्याओं 
+की संख्या, जो अंकों 0, 1, 3, 5, 7 और 9 का नबिा पुिरावृनत्त 
+के उपयोग करक े बिाई जा सकती है, बराबर है 
+ (1) 120 (2) 132 
+ (3) 72 (4) 96 
+
+--- PAGE 16 ---
+  [16] 
+ 
+56. Given A(0, 0) and B(x, y) with 
+( )0,1x  and y > 0. 
+Let the slope of the line AB equals 
+1m . Point C lies 
+on the line x = 1 such that the slope of BC equals 
+2m  
+where 
+210.mm  If the area of the triangle ABC 
+can be expressed as 
+( ) ( )12−m m f x , then the largest 
+possible value of 
+( )fx  is 
+ (1) 1 (2) 1/2 
+ (3) 1/4 (4) 1/8 
+ 
+57. Let 
+: →f R R  be a function given by  
+( )
+2
+1 cos2 ,0
+,0
+1 cos ,0
+− 
+=  =
+− 
+x x
+x
+f x x
+x xx
+ 
+where 
+, R . If 
+f  is continuous at 
+0=x , then 
+22 +
+ is equal to 
+ (1) 3 (2) 6 
+ (3) 12 (4) 48 
+ 
+58. Let 
+11 28, 56 and  70n n n
+rrrC C C−+= = = . 
+Let 
+( ) ( )4cos ,4sin , 2 , 2  and A t t B sint cost −
+( )
+23 , 1C r n r n− − −
+ be the vertices of a triangle 
+,ABC
+ where 
+t  is a parameter. 
+If 
+22(3 1) (3 ) ,xy− + =  is the locus of the centroid 
+of triangle 
+,ABC  then 
+  equals: 
+ (1) 20 (2) 8 
+ (3) 6 (4) 18 
+ 
+59. Let 
+( ) , ; ,=R x y x y N  and 
+
+22 4 3 0− + =x xy y , 
+where 
+N  is the set of all natural numbers. Then the 
+relation 
+R  is: 
+ (1) reflexive but neither symmetric nor 
+ transitive. 
+ (2) symmetric and transitive. 
+ (3) reflexive and symmetric, 
+ (4) reflexive and transitive. 
+ 
+60. The value of 
+ 
+( )
+22
+0
+lim cosec 2cos 3cos cos sin 4
+→
++ − + +
+x
+x x x x x  
+is equal to 
+ (1) 0 (2) 1 
+ (3) 
+1
+25  (4) 
+1
+25
+−  
+56. A(0, 0) और B(x, y), 
+( )0,1x  और y > 0 के साथ निए 
+गए है। माि िीनजए नक र े िा AB की प्रवर्ता
+1m  के बराबर 
+है। नबंिु C, र े िा x = 1 पर इस प्रकार खित है नक BC की 
+प्रवर्ता
+2m  के बराबर है, जहााँ 
+210 mm  है। यनि 
+नत्रभुज के क्षेत्रफि ABC को 
+( ) ( )12m m f x−  के रूप में 
+व्यक्त नकया जा सकता है, तो 
+( )fx  का सबसे बड़ा 
+संभानवत माि है: 
+ (1) 1 (2) 1/2 
+ (3) 1/4 (4) 1/8 
+ 
+57. माि िीनजए नक 
+:f R R→  एक फिि है जो निम्न िारा 
+निया गया है, 
+ 
+( )
+2
+1 cos2 ,0
+,0
+1 cos ,0
+x x
+x
+f x x
+x xx
+− 
+=  =
+−   
+जहााँ 
+, R   है। यनि 
+f , 
+0x=  पर संतत है, तब 
+22 +
+ बराबर है: 
+ (1) 3 (2) 6  
+ (3) 12  (4) 48  
+ 
+58. मािा 
+1 28, 56nn
+rrCC− ==  तथा 
+1 70n
+rC + =  है। 
+मािा 
+( ) ( )4cos ,4sin , 2sin , 2cosA t t B t t −  तथा 
+( )
+23 , 1C r n r n− − −
+ एक नत्रभुज ABC के शीिश हैं, जहााँ 
+t एक प्रािि है। यनि 
+22(3 1) (3 ) ,xy− + =  नत्रभुज 
+ABC के क ें द्रक का नबंिुपथ है, तब α बराबर है: 
+ (1) 20 (2) 8 
+ (3) 6 (4) 18 
+ 
+59. माि िीनजए नक 
+( ) , ; ,R x y x y N= औ और  
+
+22 4 3 0x xy y− + =
+ है, जहााँ 
+N  सभी प्राक ृ त संख्याओं 
+का समुिय है। तो संबंध 
+R  है: 
+ (1) स्वतुल्य िेनकि ि तो समनमत और ि ही संक्रामक 
+ (2) समनमत और संक्रामक 
+ (3) स्वतुल्य और समनमत 
+ (4) स्वतुल्य और संक्रामक 
+ 
+60. 
+( )
+22
+0
+lim cosec 2cos 3cos cos sin 4
+x
+x x x x x
+→
++ − + +  
+ का माि बराबर है: 
+ (1) 0 (2) 1 
+ (3) 
+1
+25  (4) 
+1
+25
+−  
+ 
+
+--- PAGE 17 ---
+  [17] 
+ 
+61. The area under the curve 
+|cos sin=−y x x ,  
+ 
+0 2
+x  and above 
+x -axis is: 
+ (1) 
+22  (2) 
+2 2 2−  
+ (3) 
+2 2 2+  (4) None of these 
+ 
+62. If 
+1
+23
+− =+
+zi
+zi  represent a circle whose centre is C 
+and area of triangle whose vertices are (0, 0), C 
+and 
+( ),0  is 11 then the value of 
+2  is 
+ (1) 100 (2) 101 
+ (3) 102 (4) 103 
+ 
+63. The distance of the point 
+( )1, 2,3−  from the line 
+through 
+( )2, 3,5−  which makes equal angle with 
+axes is 
+ (1) 
+7
+3  units (2) 
+14
+3  units 
+ (3) 7 units (4) 3 units 
+ 
+64. Let y(x) be the solution of differential equation 
+2 21 1
++= + +
+dy x x ydx x x
+. If y(0) = 0 then 
+y(1) is equal to 
+ (1) 
+2
+3  (2) 
+2
+3  
+ (3) 
+2
+3  (4) 
+2
+3  
+ 
+65. If 
+( ) ( ) =f x f x  and 
+( )02=f , then  
+ 
+( )
+( )34= +
+fx dxfx  
+ (1) 
+( )log 3 8++ xeC  
+ (2) 
+( )
+1 log 3 84 ++ xeC  
+ (3) 
+( )
+1 log 3 82 ++ xeC  
+ (4) None of these 
+ 
+66. The value of 
+1 12 5
+13 13
+−  +
+cos cosx sinx  is, 
+if 
+3,24
+
+x  
+ (1) 
+1 12tan 5
+−+x  (2) 
+1 12tan 5
+−−x  
+ (3) 
+1 5tan 12
+−−x  (4) 
+1 5tan 12
+−+x  
+61. वक्र 
+|cos siny x x=− , 
+0 2x   और 
+x -अक्ष के ऊपर 
+पर्रबद्ध क्षेत्रफि है: 
+ (1) 
+22  (2) 
+2 2 2−  
+ (3) 
+2 2 2+  (4) इिमें से कोई िहीं 
+ 
+62. यनि 
+1
+23
+zi
+zi
+− =+  एक वृत्त को निरूनपत करता है, 
+नजसका क ें द्र C है और एक नत्रभुज का क्षेत्रफि, नजसक े 
+शीिश (0, 0), C और 
+( ),0  हैं, 11 है, तो 
+2  का माि है: 
+ (1) 100 (2) 101 
+ (3) 102 (4) 103 
+ 
+63. नबंिु 
+( )1, 2,3−  की उस र े िा से ि ू री जो 
+( )2, 3,5−  से 
+गुजरती है और अक्षों के साथ समाि कोण बिाती है: 
+ (1) 
+7
+3  इकाई  (2) 
+14
+3  इकाई  
+ (3) 7 इकाई  (4) 3 इकाई  
+ 
+64. माि िीनजए नक y(x) अवकि समीकरण 
+2 21 1
+dy x x ydx x x
++= + +
+का हि है। यनि y(0) = 0 है, 
+तब y(1) बराबर है: 
+ (1) 
+2
+3  (2) 
+2
+3  
+ (3) 
+2
+3  (4) 
+2
+3  
+ 
+65. यनि 
+( ) ( )f x f x =  और 
+( )02f =  है, तब 
+ 
+( )
+( )34
+fx dxfx= +  
+ (1) 
+( )log 3 8 xeC++  
+ (2) 
+( )
+1 log 3 84
+xeC++  
+ (3) 
+( )
+1 log 3 82
+xeC++  
+ (4) इिमें से कोई िहीं  
+ 
+66. 
+1 12 5
+13 13cos cosx sinx−  +  का माि, यनि 
+3,24x   
+है: 
+ (1) 
+1 12tan 5x −+  (2) 
+1 12tan 5x −−  
+ (3) 
+1 5tan 12x −−  (4) 
+1 5tan 12x −+  
+ 
+
+--- PAGE 18 ---
+  [18] 
+ 
+67. If the components of 
+ˆˆˆa i j k= + +
+  along and 
+perpendicular to 
+ˆˆˆ3b i j k= + −
+  respectively, are 
+( )ˆ16
+11
+ˆ3 ˆi j k+−
+ and 
+( )
+1 4 5 1711
+ˆˆˆi j k− − − , then 
+2 2 2 + +
+ is equal to : 
+ (1) 26 (2) 23 
+ (3) 18 (4) 16  
+ 
+68. Given 
+( ) ln=f x x  
+and 
+( )
+4 3 2
+2
+2 3 2 2
+2 2 1
+− + − +=
+−+
+x x x xgx
+xx , then the 
+domain of 
+( )( )f g x  is 
+ (1) 
+( )0,  (2) 
+( )1,  
+ (3) R (4) 
+( ),0−  
+ 
+69. 
+22If  sin sin  and16 8
+   =−       
+L  
+ 
+22cos sin , then16 8
+   =−       
+M  
+ (1) 
+11 cos2822
+=− +L  
+ (2) 
+11 cos2822
+=+M  
+ (3) 
+11 cos4842
+=+M  
+ (4) 
+11 cos4842
+=−L  
+ 
+70. Two students A & B throw two dices one by one. A 
+wins the game when sum of numbers is 5 and B wins 
+when the sum of numbers is 8. If A start the game 
+then find probability that A wins the game 
+ (1) 
+11
+19  (2) 
+12
+19  
+ (3) 
+9
+19  (4) 
+10
+19  
+ 
+Integer Type Questions 
+71. Matrix 
+rM  is defined as 
+1
+1
+−=−
+r
+rrM rr , 
+rN
+. If the value of 
+( ) ( ) ( )1 2 3det det det++M M M
+( ) ( )
+2
+2007.... det+ + = Mk
+, then value of 
+215
+
+
+k  is 
+(where [
+ ] = G.I.F) 
+67. यनि  
+ˆˆˆ3b i j k= + −
+  के अिुनिश और 
+िंबवत  
+ˆˆˆa i j k= + +
+  के क्रमशः  घट्क 
+( )ˆ16
+11
+ˆ3 ˆi j k+−
+ और 
+( )
+1 4 5 1711
+ˆˆˆi j k− − −  हैं, तब
+2 2 2 + +
+ बराबर है: 
+ (1) 26 (2) 23 
+ (3) 18 (4) 16 
+ 
+68. निया गया है नक 
+( ) lnf x x =  और 
+( )
+4 3 2
+2
+2 3 2 2
+2 2 1
+x x x xgx
+xx
+− + − +=
+−+
+ है, तब
+( )( )f g x  का 
+प्रांत है: 
+ (1) 
+( )0,  (2) 
+( )1,  
+ (3) R (4) 
+( ),0−  
+ 
+69. यलद 
+22sin sin16 8L    =−        और  
+ 
+22cos sin16 8M    =−        है, तब  
+ (1) 
+11 cos2822
+=− +L  
+ (2) 
+11 cos2822
+=+M  
+ (3) 
+11 cos4842
+=+M  
+ (4) 
+11 cos4842
+=−L  
+ 
+70. िो छात्र A और B एक-एक करक े िो पासे फ ें कते हैं। जब 
+संख्याओं का योग 5 होता है, तो A िेि जीत जाता है और 
+जब संख्याओं का योग 8 होता है तो B जीत जाता है। यनि 
+A िेि शुरू करता है, तो A के िेि जीतिे की प्रानयकता 
+ज्ञात कीनजए। 
+ (1) 
+11
+19  (2) 
+12
+19  
+ (3) 
+9
+19  (4) 
+10
+19  
+ 
+iw.kkaZd çdkj ds ç'u 
+71. आव्यूह 
+rM , 
+1
+1r
+rrM rr
+−=− , 
+rN  िारा 
+पररभानित है। यनि 
+ 
+( ) ( ) ( ) ( )1 2 3 2007det det det .... detM M M M+ + + +  
+का माि 
+( )
+2k=  है, तब 
+215
+k
+  का माि है  [जहााँ [⋅] = 
+महत्तम पूर्ाांक फलन] 
+ 
+
+--- PAGE 19 ---
+  [19] 
+ 
+72. Let 
+1
+22331=+a  and for all 
+3n , let  
+( ) 12
+0 1
+−−=  − n n n nf n C a C a
+ 
+( )
+130
+21 .... 1 . nnnn
+nC a C a −−
+−+  − + − 
+ 
+If the value of  
+( ) ( ) 72007 2008 3+=f f k  
+where 
+kN  then find k 
+ 
+73. Let integers 
+ , 3,3ab −  be such that 
+0ab+ . 
+Then the number of all possible ordered pairs (a, b), 
+for which 
+1za
+zb
+− =+  and 
+ 
+2
+2
+2
+1
+1
+1
+z
+z
+z
++  
+ +
+ +  
+1,zC=  where 
+  and 
+2
+are the roots of 
+2xx ++  
+10= , is equal to  
+ 
+74. Let 
+( ) 2= + +f x ax bx c  where a, b, c are integers. 
+If
+3 3 5sin sin sin sin7 7 7 7
+    +   
+5sin sin cos7 7 7
+   +  = 
+f
+, 
+then find the value of 
+( )2f  
+ 
+75. The roots of the quadratic equation 
+230x px q− + =  
+are 
+th 10  and 
+th 11  terms of an arithmetic 
+progression with common difference 
+3
+2 . If the sum 
+of the first 11 terms of this arithmetic progression is 
+88, then 
+2qp−  is equal to 
+ 
+72. माि िीनजए नक 
+1
+22331a=+  है और 
+3n  के निए, माि 
+िीनजए नक 
+ 
+( ) 12
+0 1
+n n n nf n C a C a −−=  −   
+( )
+130
+21 .... 1 nnnn
+nC a C a −−
+−+  − + − 
+ है।  
+ यनि 
+( ) ( )2007 2008ff +  का माि 
+73 k=  है जहााँ 
+kN
+ है, तो k ज्ञात कीनजए 
+  
+73. मािा पूणाांक a, b ∈ [−3, 3] इस प्रकार हैं नक a + b ≠ 0 है, 
+तब सभी संभानवत क्रनमत युग्ों (a, b) की संख्या, नजिक े 
+निए 
+1za
+zb
+− =+  है और 
+ 
+2
+2
+2
+1
+1
+1
+z
+z
+z
++  
+ +
+ +  = 1, z ∈ C है, जहााँ ω और ω2 
+समीकरण x2 + x + 1 = 0 के मूि हैं, बराबर है: 
+ 
+74. मािा 
+( ) 2f x ax bx c= + +  जहााँ a, b, c पूणाांक हैं। यनि 
+3 3 5sin sin sin sin7 7 7 7
+    + 
+ 
+5sin sin cos7 7 7 f   +  = 
+है, 
+तब 
+( )2f  का माि है: 
+ 
+75. निघात समीकरण 
+230x px q− + =  के मूि, 
+3
+2  सावश 
+अंतर वािी एक समांतर श्रेढ़ी के 10वें और 11वें पि हैं। 
+यनि इस समांतर श्रेढ़ी के प्रथम 11 पिों का योग 88 है, 
+तब q – 2p बराबर है: 
+ 
+PW Web/App - https://smart.link/7wwosivoicgd4 
+Library- https://smart.link/sdfez8ejd80if 
