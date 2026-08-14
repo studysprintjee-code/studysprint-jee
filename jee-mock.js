@@ -77,11 +77,20 @@ const mockExamQuestions = [
 ];
 
 const mockTimerDisplay = document.querySelector("#mockTimerDisplay");
+const mockPrintablePaper = document.querySelector("#mockPrintablePaper");
 const mockQuestionText = document.querySelector("#mockQuestionText");
 const mockQuestionCounter = document.querySelector("#mockQuestionCounter");
 const mockOptions = document.querySelector("#mockOptions");
 const mockMarkButton = document.querySelector("#mockMarkButton");
 const mockNextButton = document.querySelector("#mockNextButton");
+const startMockButton = document.querySelector("#startMockButton");
+const sectionButtons = Array.from(document.querySelectorAll(".section-chip"));
+
+const subjectStartIndex = {
+  physics: 0,
+  chemistry: 25,
+  maths: 50,
+};
 
 const mockState = {
   questions: [],
@@ -91,6 +100,8 @@ const mockState = {
   remainingSeconds: 180 * 60,
   timerId: null,
   finished: false,
+  started: false,
+  selectedSection: "physics",
 };
 
 function formatTime(totalSeconds) {
@@ -101,17 +112,110 @@ function formatTime(totalSeconds) {
 
 function buildMockQuestions() {
   mockState.questions = [...mockExamQuestions];
-  mockState.currentIndex = 0;
+  mockState.currentIndex = subjectStartIndex[mockState.selectedSection];
   mockState.answers = {};
   mockState.marked = new Set();
   mockState.remainingSeconds = 180 * 60;
   mockState.finished = false;
+  mockState.started = false;
   updateMockTimer();
+  renderPrintablePaper();
+  updateStartState();
+}
+
+function updateSelectedSection(section) {
+  const validSection = subjectStartIndex[section] !== undefined ? section : "physics";
+  mockState.selectedSection = validSection;
+  sectionButtons.forEach((button) => {
+    const isActive = button.dataset.section === mockState.selectedSection;
+    button.classList.toggle("active", isActive);
+  });
+
+  if (mockState.started) {
+    mockState.currentIndex = subjectStartIndex[validSection];
+    renderQuestion();
+  }
+}
+
+function renderPrintablePaper() {
+  if (!mockPrintablePaper) return;
+
+  const subjectGroups = [
+    { title: "Physics", start: 0, end: 25 },
+    { title: "Chemistry", start: 25, end: 50 },
+    { title: "Mathematics", start: 50, end: 75 }
+  ];
+
+  mockPrintablePaper.innerHTML = subjectGroups
+    .map(({ title, start, end }) => {
+      const questions = mockState.questions.slice(start, end);
+      return `
+        <div class="print-section">
+          <div class="print-section-header">${title} Section</div>
+          ${questions
+            .map((question, index) => {
+              const globalNumber = start + index + 1;
+              return `
+                <div class="print-question-item">
+                  <div class="print-question-number">Q${globalNumber}.</div>
+                  <div class="print-question-text">${question.question}</div>
+                  <ol class="print-options-list">
+                    ${question.options
+                      .map((option, optIndex) => `<li>${String.fromCharCode(65 + optIndex)}. ${option}</li>`)
+                      .join("")}
+                  </ol>
+                </div>
+              `;
+            })
+            .join("")}
+        </div>
+      `;
+    })
+    .join("");
 }
 
 function updateMockTimer() {
   if (mockTimerDisplay) {
     mockTimerDisplay.textContent = formatTime(mockState.remainingSeconds);
+  }
+}
+
+function updateStartState() {
+  const started = mockState.started;
+
+  if (mockMarkButton) {
+    mockMarkButton.disabled = !started;
+  }
+
+  if (mockNextButton) {
+    mockNextButton.disabled = !started;
+    mockNextButton.textContent = started
+      ? (mockState.currentIndex === mockState.questions.length - 1 ? "Submit Mock" : "Next Question")
+      : "Start Mock Test";
+  }
+
+  if (!started) {
+    if (mockQuestionCounter) {
+      mockQuestionCounter.textContent = "Ready to begin";
+    }
+
+    if (mockQuestionText) {
+      mockQuestionText.textContent = "Press Start Mock Test to begin your exam.";
+    }
+
+    if (mockOptions) {
+      mockOptions.innerHTML = `
+        <div class="mock-cta-box">
+          <strong>Instructions</strong>
+          <ul>
+            <li>75 questions</li>
+            <li>3 sections: Physics, Chemistry, Mathematics</li>
+            <li>180 minutes total duration</li>
+            <li>+4 for correct and -1 for wrong</li>
+          </ul>
+        </div>
+      `;
+    }
   }
 }
 
@@ -140,6 +244,16 @@ function startMockTimer() {
     mockState.remainingSeconds -= 1;
     updateMockTimer();
   }, 1000);
+}
+
+function startMockSession() {
+  if (mockState.started) return;
+
+  mockState.started = true;
+  mockState.currentIndex = subjectStartIndex[mockState.selectedSection];
+  renderQuestion();
+  startMockTimer();
+  updateStartState();
 }
 
 function renderQuestion() {
@@ -218,12 +332,11 @@ function finishMock() {
   }
 
   if (mockNextButton) {
+    mockNextButton.disabled = false;
     mockNextButton.textContent = "Retake Mock";
     mockNextButton.onclick = () => {
       buildMockQuestions();
-      renderQuestion();
-      startMockTimer();
-      mockMarkButton.disabled = false;
+      startMockSession();
       mockNextButton.onclick = null;
       mockNextButton.addEventListener("click", handleNextQuestion);
     };
@@ -257,6 +370,23 @@ if (mockNextButton) {
   mockNextButton.addEventListener("click", handleNextQuestion);
 }
 
+if (startMockButton) {
+  startMockButton.addEventListener("click", startMockSession);
+}
+
+sectionButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    updateSelectedSection(button.dataset.section);
+  });
+});
+
+const printMockPaperButton = document.querySelector("#printMockPaperButton");
+if (printMockPaperButton) {
+  printMockPaperButton.addEventListener("click", () => {
+    window.print();
+  });
+}
+
+updateSelectedSection(mockState.selectedSection);
 buildMockQuestions();
-renderQuestion();
-startMockTimer();
+updateStartState();

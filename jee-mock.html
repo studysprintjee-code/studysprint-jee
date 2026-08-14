@@ -38,23 +38,41 @@
         <div class="panel-top">
           <div class="panel-badges">
             <span class="pill">75 Questions</span>
-            <span class="pill">90 min</span>
+            <span class="pill">180 min</span>
             <span class="pill">+4 / -1</span>
           </div>
-          <span id="mockQuestionCounter">Question 1 / 75</span>
+          <span id="mockQuestionCounter">Ready to begin</span>
+        </div>
+
+        <div class="mock-section-selector" aria-label="Choose subject section">
+          <button class="section-chip active" data-section="physics" type="button">Physics</button>
+          <button class="section-chip" data-section="chemistry" type="button">Chemistry</button>
+          <button class="section-chip" data-section="maths" type="button">Maths</button>
+        </div>
+
+        <div class="mock-start-row">
+          <button id="startMockButton" class="start-button" type="button">Start Mock Test</button>
         </div>
 
         <div class="mock-question-block">
           <div class="question-label">Single Correct</div>
-          <h2 id="mockQuestionText">Loading mock question...</h2>
+          <h2 id="mockQuestionText">Press Start Mock Test to begin your exam.</h2>
         </div>
 
         <div id="mockOptions" class="mock-options" aria-live="polite"></div>
 
         <div class="mock-actions">
-          <button id="mockMarkButton" class="mark-button" type="button">Mark for Review</button>
-          <button id="mockNextButton" class="next-button" type="button">Next Question</button>
+          <button id="mockMarkButton" class="mark-button" type="button" disabled>Mark for Review</button>
+          <button id="mockNextButton" class="next-button" type="button" disabled>Start Mock Test</button>
         </div>
+      </section>
+
+      <section class="print-wrapper">
+        <div class="print-header">
+          <h3>Printable Mock Question Paper</h3>
+          <button id="printMockPaperButton" class="print-button" type="button">Print / Save PDF</button>
+        </div>
+        <div id="mockPrintablePaper" class="mock-printable-paper"></div>
       </section>
     </main>
 
