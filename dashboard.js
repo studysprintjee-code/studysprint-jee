@@ -5,6 +5,7 @@ const topicDelta = document.querySelector("#topicDelta");
 const studyTime = document.querySelector("#studyTime");
 const studyTimeNote = document.querySelector("#studyTimeNote");
 const weekDays = document.querySelectorAll("#weekDays span");
+const subjects = ["physics", "chemistry", "mathematics"];
 
 function readCompletedTopics() {
   return ["physics", "chemistry", "mathematics"].reduce((total, subject) => {
@@ -18,7 +19,11 @@ function readSchedule() {
 }
 
 function renderDashboard() {
-  const completedTopics = readCompletedTopics();
+  const completedBySubject = subjects.reduce((progress, subject) => {
+    progress[subject] = JSON.parse(localStorage.getItem(`completed-${subject}`) || "[]").length;
+    return progress;
+  }, {});
+  const completedTopics = Object.values(completedBySubject).reduce((total, count) => total + count, 0);
   const totalTopics = 36;
   const completion = Math.min(100, Math.round((completedTopics / totalTopics) * 100));
   const schedule = readSchedule();
@@ -41,6 +46,14 @@ function renderDashboard() {
   topicDelta.textContent = completedTopics ? `${completedTopics} completed so far` : "Start planning today";
   studyTime.textContent = `${(totalMinutes / 60).toFixed(1)} hrs`;
   studyTimeNote.textContent = totalMinutes ? "From your timetable" : "Add blocks in Study Plan";
+
+  subjects.forEach((subject) => {
+    const percentage = Math.min(100, Math.round((completedBySubject[subject] / 12) * 100));
+    const fill = document.querySelector(`#${subject}ProgressFill`);
+    const label = document.querySelector(`#${subject}ProgressLabel`);
+    if (fill) fill.style.width = `${percentage}%`;
+    if (label) label.textContent = `${percentage}%`;
+  });
 
   weekDays.forEach((day) => {
     const height = Math.round((dailyMinutes[day.dataset.day] / maxMinutes) * 45);

@@ -549,6 +549,45 @@
         font-size: 0.85rem;
       }
 
+      .subject-progress {
+        position: absolute;
+        right: 25px;
+        bottom: 25px;
+        left: 25px;
+      }
+
+      .subject-progress-heading {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 7px;
+        color: var(--navy);
+        font-size: 0.72rem;
+        font-weight: 800;
+      }
+
+      .subject-progress-track {
+        height: 7px;
+        overflow: hidden;
+        border-radius: 20px;
+        background: rgb(255 255 255 / 70%);
+      }
+
+      .subject-progress-fill {
+        width: 0%;
+        height: 100%;
+        border-radius: inherit;
+        background: var(--blue);
+        transition: width 500ms ease;
+      }
+
+      .chemistry-card .subject-progress-fill {
+        background: #27a66f;
+      }
+
+      .maths-card .subject-progress-fill {
+        background: #c58a00;
+      }
+
       .subject-link {
         position: absolute;
         right: 25px;
@@ -908,18 +947,30 @@
           <div class="subject-icon">⚛</div>
           <h3>Physics</h3>
           <p>Classical Mechanics, Thermodynamics, Electromagnetism, Optics, Modern Physics</p>
+          <div class="subject-progress">
+            <div class="subject-progress-heading"><span>Progress</span><span id="physicsProgressLabel">0%</span></div>
+            <div class="subject-progress-track"><div id="physicsProgressFill" class="subject-progress-fill"></div></div>
+          </div>
         </a>
         <!-- Chemistry -->
         <a class="subject-card chemistry-card" href="subject.html?subject=chemistry">
           <div class="subject-icon">🧪</div>
           <h3>Chemistry</h3>
           <p>Organic, Inorganic, Physical Chemistry</p>
+          <div class="subject-progress">
+            <div class="subject-progress-heading"><span>Progress</span><span id="chemistryProgressLabel">0%</span></div>
+            <div class="subject-progress-track"><div id="chemistryProgressFill" class="subject-progress-fill"></div></div>
+          </div>
         </a>
         <!-- Mathematics -->
         <a class="subject-card maths-card" href="subject.html?subject=mathematics">
           <div class="subject-icon">π</div>
           <h3>Mathematics</h3>
           <p>Algebra, Calculus, Coordinate Geometry</p>
+          <div class="subject-progress">
+            <div class="subject-progress-heading"><span>Progress</span><span id="mathematicsProgressLabel">0%</span></div>
+            <div class="subject-progress-track"><div id="mathematicsProgressFill" class="subject-progress-fill"></div></div>
+          </div>
         </a>
       </div>
       </section>
