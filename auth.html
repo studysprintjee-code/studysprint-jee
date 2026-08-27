@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | StudySprint JEE</title>
+  <style>
+    :root {
+      --navy: #111d3a;
+      --blue: #315bea;
+      --purple: #7657e8;
+      --yellow: #ffc857;
+      --cream: #fffaf2;
+      --text: #17213c;
+      --muted: #71798d;
+      --white: #ffffff;
+      --border: #ebeef5;
+      --shadow: 0 18px 45px rgb(35 49 90 / 10%);
+      --error: #e74c3c;
+      --success: #27ae60;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-width: 320px;
+      color: var(--text);
+      background: var(--cream);
+      font-family: Inter, Arial, sans-serif;
+      line-height: 1.5;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .auth-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 100vh;
+      align-items: stretch;
+    }
+
+    .auth-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 5%;
+      background: linear-gradient(135deg, #eef2ff, #f9f9ff);
+    }
+
+    .auth-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 5%;
+      background: var(--white);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--navy);
+      font-size: 1.5rem;
+      font-weight: 900;
+      margin-bottom: 60px;
+    }
+
+    .brand span:last-child {
+      color: var(--blue);
+    }
+
+    .auth-section {
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .auth-section h2 {
+      color: var(--navy);
+      font-size: 2rem;
+      margin-bottom: 12px;
+    }
+
+    .auth-section p {
+      color: var(--muted);
+      margin-bottom: 30px;
+      font-size: 0.95rem;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      color: var(--navy);
+      font-weight: 700;
+      margin-bottom: 8px;
+      font-size: 0.9rem;
+    }
+
+    input[type="email"],
+    input[type="password"],
+    input[type="text"] {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-family: Inter, Arial, sans-serif;
+      transition: 220ms ease;
+      color: var(--text);
+    }
+
+    input[type="email"]:focus,
+    input[type="password"]:focus,
+    input[type="text"]:focus {
+      outline: none;
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(49, 91, 234, 0.1);
+    }
+
+    input::placeholder {
+      color: var(--muted);
+    }
+
+    .button-group {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      flex: 1;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: 220ms ease;
+      font-size: 0.95rem;
+    }
+
+    .btn-primary {
+      background: var(--blue);
+      color: white;
+      box-shadow: 0 10px 22px rgba(49, 91, 234, 0.25);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 15px 35px rgba(49, 91, 234, 0.35);
+    }
+
+    .btn-primary:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .btn-secondary {
+      background: white;
+      color: var(--blue);
+      border: 2px solid var(--blue);
+    }
+
+    .btn-secondary:hover {
+      background: #f0f5ff;
+      transform: translateY(-2px);
+    }
+
+    .btn-google {
+      width: 100%;
+      padding: 12px 20px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      background: white;
+      color: var(--navy);
+      font-weight: 800;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: 220ms ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .btn-google:hover {
+      background: #f9f9f9;
+      border-color: #315bea;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(49, 91, 234, 0.15);
+    }
+
+    .link-text {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-top: 20px;
+    }
+
+    .link-text a {
+      color: var(--blue);
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .link-text a:hover {
+      text-decoration: underline;
+    }
+
+    .form-divider {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 30px 0;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .form-divider::before,
+    .form-divider::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .alert {
+      padding: 14px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      font-size: 0.9rem;
+      display: none;
+    }
+
+    .alert.show {
+      display: block;
+    }
+
+    .alert-error {
+      background: #fadbd8;
+      color: var(--error);
+      border-left: 4px solid var(--error);
+    }
+
+    .alert-success {
+      background: #d5f4e6;
+      color: var(--success);
+      border-left: 4px solid var(--success);
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .loading {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      border-top-color: white;
+      animation: spin 0.8s linear infinite;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .auth-container {
+        grid-template-columns: 1fr;
+      }
+
+      .auth-left {
+        display: none;
+      }
+
+      .auth-section h2 {
+        font-size: 1.5rem;
+      }
+
+      .brand {
+        margin-bottom: 40px;
+      }
+    }
+
+    .hero-visual-left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .hero-text-left h1 {
+      color: var(--navy);
+      font-size: 2.2rem;
+      line-height: 1.2;
+      margin-bottom: 15px;
+    }
+
+    .hero-text-left h1 span {
+      color: var(--blue);
+    }
+
+    .hero-text-left p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      max-width: 350px;
+    }
+
+    .features-list {
+      list-style: none;
+      width: 100%;
+      max-width: 350px;
+    }
+
+    .features-list li {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 15px;
+      color: var(--text);
+      font-size: 0.9rem;
+    }
+
+    .features-list li::before {
+      content: "✓";
+      color: var(--blue);
+      font-weight: 900;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="auth-container">
+    <div class="auth-left">
+      <a href="index.html" class="brand">
+        <span>✦</span>
+        <span>StudySprint</span>
+        <span>JEE</span>
+      </a>
+
+      <div class="hero-visual-left">
+        <div>
+          <div class="hero-text-left">
+            <h1>Welcome to <span>StudySprint</span></h1>
+            <p>Master JEE with comprehensive study materials, mock tests, and expert guidance.</p>
+          </div>
+
+          <ul class="features-list">
+            <li>Complete study materials</li>
+            <li>Practice mock tests</li>
+            <li>Mind maps & formula notes</li>
+            <li>Track your progress</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="auth-right">
+      <!-- Login Form -->
+      <div id="loginSection" class="auth-section">
+        <h2>Login</h2>
+        <p>Access your personalized study dashboard</p>
+
+        <div id="loginAlert" class="alert"></div>
+
+        <form id="loginForm" onsubmit="handleLogin(event)">
+          <div class="form-group">
+            <label for="loginEmail">Email Address</label>
+            <input type="email" id="loginEmail" placeholder="your@email.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="loginPassword">Password</label>
+            <input type="password" id="loginPassword" placeholder="Enter your password" required />
+          </div>
+
+          <div class="button-group">
+            <button type="submit" class="btn-primary" id="loginBtn">
+              <span id="loginBtnText">Login</span>
+            </button>
+          </div>
+        </form>
+
+        <div class="form-divider">or</div>
+
+        <button type="button" class="btn-google" id="googleLoginBtn" onclick="handleGoogleLogin()">
+          <span>🔐</span> Sign in with Google
+        </button>
+
+        <div class="link-text">
+          <a onclick="showForgotPassword()">Forgot password?</a>
+        </div>
+
+        <div class="form-divider">or</div>
+
+        <div class="link-text" style="margin-top: 0;">
+          Don't have an account? <a onclick="showRegister()">Sign up</a>
+        </div>
+      </div>
+
+      <!-- Register Form -->
+      <div id="registerSection" class="auth-section hidden">
+        <h2>Sign Up</h2>
+        <p>Create your StudySprint account</p>
+
+        <div id="registerAlert" class="alert"></div>
+
+        <form id="registerForm" onsubmit="handleRegister(event)">
+          <div class="form-group">
+            <label for="registerName">Full Name</label>
+            <input type="text" id="registerName" placeholder="Your full name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="registerEmail">Email Address</label>
+            <input type="email" id="registerEmail" placeholder="your@email.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="registerPassword">Password</label>
+            <input type="password" id="registerPassword" placeholder="Min 6 characters" required minlength="6" />
+          </div>
+
+          <div class="form-group">
+            <label for="registerConfirm">Confirm Password</label>
+            <input type="password" id="registerConfirm" placeholder="Confirm password" required minlength="6" />
+          </div>
+
+          <div class="button-group">
+            <button type="submit" class="btn-primary" id="registerBtn">
+              <span id="registerBtnText">Sign Up</span>
+            </button>
+          </div>
+        </form>
+
+        <div class="link-text" style="margin-top: 0;">
+          Already have an account? <a onclick="showLogin()">Login</a>
+        </div>
+      </div>
+
+      <!-- Forgot Password Form -->
+      <div id="forgotSection" class="auth-section hidden">
+        <h2>Reset Password</h2>
+        <p>Enter your email to receive a reset link</p>
+
+        <div id="forgotAlert" class="alert"></div>
+
+        <form id="forgotForm" onsubmit="handleForgotPassword(event)">
+          <div class="form-group">
+            <label for="forgotEmail">Email Address</label>
+            <input type="email" id="forgotEmail" placeholder="your@email.com" required />
+          </div>
+
+          <div class="button-group">
+            <button type="submit" class="btn-primary" id="forgotBtn">
+              <span id="forgotBtnText">Send Reset Link</span>
+            </button>
+          </div>
+        </form>
+
+        <div class="link-text" style="margin-top: 0;">
+          <a onclick="showLogin()">Back to login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-database-compat.js"></script>
+  <script src="firebase-config.js"></script>
+
+  <script>
+    const auth = window.firebaseAuth;
+    const database = window.firebaseDatabase;
+
+    // Check if user is logged in
+    auth.onAuthStateChanged(user => {
+      if (user) {
+        // Check if email is verified
+        if (user.emailVerified) {
+          // Email verified, redirect to dashboard
+          window.location.href = "index.html?user=" + user.uid;
+        } else {
+          // Email not verified, show warning but allow access
+          console.log("Email not verified. Verification email sent to: " + user.email);
+        }
+      }
+    });
+
+    // Show/Hide Forms
+    function showLogin() {
+      document.getElementById("loginSection").classList.remove("hidden");
+      document.getElementById("registerSection").classList.add("hidden");
+      document.getElementById("forgotSection").classList.add("hidden");
+    }
+
+    function showRegister() {
+      document.getElementById("loginSection").classList.add("hidden");
+      document.getElementById("registerSection").classList.remove("hidden");
+      document.getElementById("forgotSection").classList.add("hidden");
+    }
+
+    function showForgotPassword() {
+      document.getElementById("loginSection").classList.add("hidden");
+      document.getElementById("registerSection").classList.add("hidden");
+      document.getElementById("forgotSection").classList.remove("hidden");
+    }
+
+    // Show Alert
+    function showAlert(elementId, message, type) {
+      const alertEl = document.getElementById(elementId);
+      alertEl.textContent = message;
+      alertEl.className = `alert show alert-${type}`;
+    }
+
+    // Clear Alert
+    function clearAlert(elementId) {
+      document.getElementById(elementId).classList.remove("show");
+    }
+
+    // Login Handler
+    async function handleLogin(event) {
+      event.preventDefault();
+      clearAlert("loginAlert");
+
+      const email = document.getElementById("loginEmail").value;
+      const password = document.getElementById("loginPassword").value;
+      const loginBtn = document.getElementById("loginBtn");
+      const loginBtnText = document.getElementById("loginBtnText");
+
+      loginBtn.disabled = true;
+      loginBtnText.innerHTML = '<span class="loading"></span>Logging in...';
+
+      try {
+        const userCredential = await auth.signInWithEmailAndPassword(email, password);
+        showAlert("loginAlert", "Login successful! Redirecting...", "success");
+        setTimeout(() => {
+          window.location.href = "index.html";
+        }, 1500);
+      } catch (error) {
+        let errorMessage = error.message;
+        if (error.code === "auth/user-not-found") {
+          errorMessage = "Email not found. Please sign up first.";
+        } else if (error.code === "auth/wrong-password") {
+          errorMessage = "Incorrect password. Please try again.";
+        } else if (error.code === "auth/invalid-email") {
+          errorMessage = "Invalid email address.";
+        }
+        showAlert("loginAlert", errorMessage, "error");
+        loginBtn.disabled = false;
+        loginBtnText.textContent = "Login";
+      }
+    }
+
+    // Register Handler
+    async function handleRegister(event) {
+      event.preventDefault();
+      clearAlert("registerAlert");
+
+      const name = document.getElementById("registerName").value;
+      const email = document.getElementById("registerEmail").value;
+      const password = document.getElementById("registerPassword").value;
+      const confirmPassword = document.getElementById("registerConfirm").value;
+      const registerBtn = document.getElementById("registerBtn");
+      const registerBtnText = document.getElementById("registerBtnText");
+
+      if (password !== confirmPassword) {
+        showAlert("registerAlert", "Passwords do not match.", "error");
+        return;
+      }
+
+      registerBtn.disabled = true;
+      registerBtnText.innerHTML = '<span class="loading"></span>Creating account...';
+
+      try {
+        const userCredential = await auth.createUserWithEmailAndPassword(email, password);
+        const user = userCredential.user;
+
+        // Save user profile in database
+        await database.ref("users/" + user.uid).set({
+          name: name,
+          email: email,
+          createdAt: new Date().toISOString(),
+          progress: {
+            physics: 0,
+            chemistry: 0,
+            mathematics: 0
+          }
+        });
+
+        // Update auth profile
+        await user.updateProfile({
+          displayName: name
+        });
+        
+        // Send verification email
+        await sendEmailVerification(user);
+
+        showAlert("registerAlert", "Account created successfully! Logging you in...", "success");
+        setTimeout(() => {
+          window.location.href = "index.html";
+        }, 1500);
+      } catch (error) {
+        let errorMessage = error.message;
+        if (error.code === "auth/email-already-in-use") {
+          errorMessage = "Email already registered. Please login instead.";
+        } else if (error.code === "auth/weak-password") {
+          errorMessage = "Password is too weak. Use at least 6 characters.";
+        } else if (error.code === "auth/invalid-email") {
+          errorMessage = "Invalid email address.";
+        }
+        showAlert("registerAlert", errorMessage, "error");
+        registerBtn.disabled = false;
+        registerBtnText.textContent = "Sign Up";
+      }
+    }
+
+    // Forgot Password Handler
+    async function handleForgotPassword(event) {
+      event.preventDefault();
+      clearAlert("forgotAlert");
+
+      const email = document.getElementById("forgotEmail").value;
+      const forgotBtn = document.getElementById("forgotBtn");
+      const forgotBtnText = document.getElementById("forgotBtnText");
+
+      forgotBtn.disabled = true;
+      forgotBtnText.innerHTML = '<span class="loading"></span>Sending...';
+
+      try {
+        await auth.sendPasswordResetEmail(email);
+        showAlert("forgotAlert", "Password reset link sent! Check your email.", "success");
+        setTimeout(() => {
+          showLogin();
+          document.getElementById("forgotEmail").value = "";
+          forgotBtn.disabled = false;
+          forgotBtnText.textContent = "Send Reset Link";
+        }, 2000);
+      } catch (error) {
+        let errorMessage = error.message;
+        if (error.code === "auth/user-not-found") {
+          errorMessage = "Email not found. Please check and try again.";
+        } else if (error.code === "auth/invalid-email") {
+          errorMessage = "Invalid email address.";
+        }
+        showAlert("forgotAlert", errorMessage, "error");
+        forgotBtn.disabled = false;
+        forgotBtnText.textContent = "Send Reset Link";
+      }
+    }
+
+    // Send Email Verification
+    async function sendEmailVerification(user) {
+      try {
+        await user.sendEmailVerification();
+        console.log("Verification email sent to:", user.email);
+      } catch (error) {
+        console.error("Error sending verification email:", error);
+      }
+    }
+
+    // Google Login Handler
+    async function handleGoogleLogin() {
+      const googleLoginBtn = document.getElementById("googleLoginBtn");
+      googleLoginBtn.disabled = true;
+      googleLoginBtn.innerHTML = '<span class="loading"></span> Signing in...';
+
+      try {
+        const provider = new firebase.auth.GoogleAuthProvider();
+        const result = await auth.signInWithPopup(provider);
+        const user = result.user;
+
+        const userRef = database.ref("users/" + user.uid);
+        const userSnapshot = await userRef.once("value");
+        if (!userSnapshot.exists()) {
+          await userRef.set({
+            name: user.displayName || "",
+            email: user.email || "",
+            photoURL: user.photoURL || "",
+            createdAt: new Date().toISOString(),
+            progress: {
+              physics: 0,
+              chemistry: 0,
+              mathematics: 0
+            }
+          });
+        }
+
+        showAlert("loginAlert", "Login successful! Redirecting...", "success");
+        setTimeout(() => {
+          window.location.href = "index.html";
+        }, 1500);
+      } catch (error) {
+        console.error("Google login error:", error);
+        let errorMessage = "Google login failed. Please try again.";
+        if (error.code === "auth/popup-closed-by-user") {
+          errorMessage = "Login cancelled. Please try again.";
+        } else if (error.code === "auth/popup-blocked") {
+          errorMessage = "Popup blocked. Please allow popups and try again.";
+        } else if (error.code === "auth/operation-not-allowed") {
+          errorMessage = "Google sign-in is not enabled in Firebase yet.";
+        } else if (error.code === "auth/unauthorized-domain") {
+          errorMessage = "This website domain is not authorized in Firebase.";
+        } else if (error.code === "auth/network-request-failed") {
+          errorMessage = "Network error. Check your internet connection and try again.";
+        } else if (error.code === "auth/account-exists-with-different-credential") {
+          errorMessage = "An account already exists with this email. Use email and password to log in.";
+        }
+        showAlert("loginAlert", errorMessage, "error");
+        googleLoginBtn.disabled = false;
+        googleLoginBtn.innerHTML = '<span>🔐</span> Sign in with Google';
+      }
+    }
+  </script>
+</body>
+</html>

@@ -13,6 +13,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JEE साथी | Subject</title>
   <link rel="stylesheet" href="subject.css?v=4" />
+  <style>
+    .auth-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #315bea, #2a4ac4);
+      color: white;
+      font-weight: 900;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: 280ms ease;
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(49, 91, 234, 0.3);
+      letter-spacing: 0.5px;
+    }
+    .auth-button:hover {
+      background: linear-gradient(135deg, #2a4ac4, #1f3a99);
+      transform: translateY(-4px);
+      box-shadow: 0 14px 35px rgba(49, 91, 234, 0.4);
+    }
+    .auth-button:active {
+      transform: translateY(-2px);
+    }
+    .user-menu {
+      display: none;
+      align-items: center;
+      gap: 12px;
+      margin-left: auto;
+    }
+    .user-name {
+      font-size: 0.85rem;
+      font-weight: 700;
+      max-width: 120px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .user-logout {
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      background: #ffe6e6;
+      color: #e74c3c;
+      font-weight: 800;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: 220ms ease;
+    }
+    .user-logout:hover {
+      background: #ffcccc;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-left: auto;
+    }
+  </style>
 </head>
 
 <body>
@@ -32,9 +93,14 @@
       <a href="#quiz">Quiz</a>
     </nav>
 
-    <button id="themeButton" class="theme-button" aria-label="Toggle dark mode">
-      ◐
-    </button>
+    <div class="header-actions">
+      <button id="authButton" class="auth-button" onclick="window.location.href='auth.html'" type="button">🔐 Login</button>
+      <div id="userMenu" class="user-menu">
+        <span class="user-name" id="userNameDisplay">User</span>
+        <button class="user-logout" type="button" onclick="handleLogout()">Logout</button>
+      </div>
+      <button id="themeButton" class="theme-button" aria-label="Toggle dark mode">◐</button>
+    </div>
   </header>
 
   <main>
@@ -147,10 +213,25 @@
         </div>
       </div>
     </section>
+    <!-- Telegram Channel Link -->
+    <div style="max-width: 1240px; margin: 60px auto 40px; padding: 0 5%;">
+      <div style="border: 2px solid #315bea; border-radius: 16px; padding: 25px; background: linear-gradient(135deg, #f9f9ff, #eef2ff); text-align: center;">
+        <p style="color: #71798d; font-size: 0.9rem; margin-bottom: 12px; font-weight: 600; letter-spacing: 0.05em;">JOIN OUR COMMUNITY</p>
+        <h3 style="color: #111d3a; font-size: 1.4rem; margin-bottom: 15px; font-weight: 800;">StudySprint JEE Telegram Channel</h3>
+        <p style="color: #71798d; margin-bottom: 20px; font-size: 0.95rem;">Get notes, mind-maps, formula notes, mock tests, and exclusive study materials from our community of JEE aspirants.</p>
+        <a href="https://t.me/studysprintjeee" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px 28px; background: #315bea; color: white; border-radius: 10px; font-weight: 800; text-decoration: none; transition: 220ms ease; box-shadow: 0 10px 22px rgba(49, 91, 234, 0.25);" onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 15px 35px rgba(49, 91, 234, 0.35)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 22px rgba(49, 91, 234, 0.25)';">Join Telegram Channel →</a>
+      </div>
+    </div>
   </main>
 
   <div id="toast" class="toast" role="status"></div>
 
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-database-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="authentication.js"></script>
   <script src="storage-config.js?v=2"></script>
   <script src="subject.js?v=2"></script>
 </body>
